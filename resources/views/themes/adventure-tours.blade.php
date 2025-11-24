@@ -282,7 +282,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 					<div class="product-list">
 			<a href="../trips-to-india/goa-beach-with-taj-tour.html"><div class="product-list-wrap">
 
-									<img src="../images/slider/1.jpg" alt="">
+									<img src="../images1/slider/1.jpg" alt="">
 								<div class="trip-info">
 					<h5>Goa Beach With Taj Tour </h5>
 					<p><span class="trip">Duration - 04 Nights / 05 Days</span></p>
@@ -312,7 +312,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 					<a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/3.jpg" alt="">
+									<img src="../images1/slider/3.jpg" alt="">
 								<div class="trip-info">
 											<h5>Tiger Safari with Taj Mahal Tour</h5>
 					<p><span class="trip">Duration - 08 Nights / 09 Days</span></p>
@@ -327,7 +327,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 					<a href="../trips-to-india/amazing-gujarat-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/4.jpg" alt="">
+									<img src="../images1/slider/4.jpg" alt="">
 								<div class="trip-info">
 					<h5>Amazing Gujarat Tour</h5>
 					<p><span class="trip">Duration - 09 Nights / 10 Days</span></p>
@@ -342,7 +342,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 					<a href="../trips-to-india/golden-triangle-with-varanasi-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/5.jpg" alt="">
+									<img src="../images1/slider/5.jpg" alt="">
 								<div class="trip-info">
 					<h5>Golden Triangle with Varanasi Tour</h5>
 					<p><span class="trip">Duration - 08 Nights / 09 Days</span></p>
@@ -358,7 +358,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 	<a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/6.jpg" alt="">
+									<img src="../images1/slider/6.jpg" alt="">
 								<div class="trip-info">
 					<h5>Haridwar & Rishikesh with Golden Triangle Tour</h5>
 					<p><span class="trip">Duration - 08 Nights / 09 Days</span></p>
@@ -374,7 +374,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 		<a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/7.jpg" alt="">
+									<img src="../images1/slider/7.jpg" alt="">
 								<div class="trip-info">
 					<h5>Mumbai Aurangabad with Ajanta Ellora Cave</h5>
 					<p><span class="trip">Duration - 04 Nights / 05 Days</span></p>
@@ -389,7 +389,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 		<a href="../trips-to-india/discover-karnataka-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/8.jpg" alt="">
+									<img src="../images1/slider/8.jpg" alt="">
 								<div class="trip-info">
 					<h5>Discover Karnataka Tour</h5>
 					<p><span class="trip">Duration - 09 Nights / 10 Days</span></p>
@@ -404,7 +404,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 		<a href="../trips-to-india/kashmir-with-taj-mahal-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/9.jpg" alt="">
+									<img src="../images1/slider/9.jpg" alt="">
 								<div class="trip-info">
 					<h5>Kashmir With Tajmahal Tour</h5>
 					<p><span class="trip">Duration - 07 Nights / 08 Days</span></p>
@@ -419,7 +419,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 		<a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/10.jpg" alt="">
+									<img src="../images1/slider/10.jpg" alt="">
 								<div class="trip-info">
 					<h5>Kolkata Varanasi With Golden Triangle Tour</h5>
 					<p><span class="trip">Duration - 09 Nights / 10 Days</span></p>
@@ -465,7 +465,7 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
 @include('layouts.footer')
 
 <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
+	<a href="../enquiry.php" class="" ><img src="../images1/contact-butt.png"></a>
 </div>
 
 	<!--FORM -->
@@ -485,13 +485,13 @@ Moreover, you can get a real feel of nature when in Ladakh which is known to be 
   });
 });
     </script>
-	<link rel='stylesheet' id='slick-css-css'  href='../css/slider/slick.min.css' type='text/css' media='all' />
-            <script type='text/javascript' src='../js/slider/slick.min.js'></script>
-            <script type='text/javascript' src='../js/slider/custom.js'></script>
+	<link rel='stylesheet' id='slick-css-css'  href='../css1/slider/slick.min.css' type='text/css' media='all' />
+            <script type='text/javascript' src='../js1/slider/slick.min.js'></script>
+            <script type='text/javascript' src='../js1/slider/custom.js'></script>
 	<!--========= Scripts ===========-->
-	<script src="../js/jquery-latest.min.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/custom.js"></script>
+	<script src="../js1/jquery-latest.min.js"></script>
+	<script src="../js1/bootstrap.js"></script>
+	<script src="../js1/custom.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	</body>
 

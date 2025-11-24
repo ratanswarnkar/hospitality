@@ -30,7 +30,7 @@
 <a href="family-vacation-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/south-india.jpg" alt="delhi">
+<img src="../images1/south-india.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Family Vacations</h5>
@@ -42,7 +42,7 @@
 <a href="heritage-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/rajasthan.jpg" alt="delhi">
+<img src="../images1/rajasthan.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Cultural & Heritage</h5>
@@ -54,7 +54,7 @@
 <a href="wildlife-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/wildlife.jpg" alt="delhi">
+<img src="../images1/wildlife.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Wildlife</h5>
@@ -66,7 +66,7 @@
 <a href="pilgrimage-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/pilgrimage.jpg" alt="delhi">
+<img src="../images1/pilgrimage.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Pilgrimage</h5>
@@ -82,7 +82,7 @@
 <a href="yoga-ayurveda-tour.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/ayurveda.jpg" alt="delhi">
+<img src="../images1/ayurveda.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Ayurveda & Yoga</h5>
@@ -94,7 +94,7 @@
 <a href="adventure-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/adventure.jpg" alt="delhi">
+<img src="../images1/adventure.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Adventure </h5>
@@ -106,7 +106,7 @@
 <a href="honeymoon-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/honeymoon.jpg" alt="delhi">
+<img src="../images1/honeymoon.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Honeymoon</h5>
@@ -121,7 +121,7 @@
 <a href="luxury-train-tour.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/luxury-train.jpg" alt="delhi">
+<img src="../images1/luxury-train.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Luxary Train Tours</h5>
@@ -135,7 +135,7 @@
 <a href="kerala-backwaters-tour.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/kerala-backwaters.jpg" alt="delhi">
+<img src="../images1/kerala-backwaters.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">kerala Backwaters</h5>
@@ -147,7 +147,7 @@
 <a href="beach-vacations-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/beach-vacation-tours.jpg" alt="delhi">
+<img src="../images1/beach-vacation-tours.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Beach</h5>
@@ -162,7 +162,7 @@
 <a href="buddhist-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/budhist-tour.jpg" alt="delhi">
+<img src="../images1/budhist-tour.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5>Buddhist</h5>
@@ -175,7 +175,7 @@
 <a href="golden-triangle-tour.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/golden-triangle-tours.jpg" alt="delhi">
+<img src="../images1/golden-triangle-tours.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Golden Triangle Tours</h5>
@@ -189,7 +189,7 @@
 <a href="hill-station-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/hill-station-tour.jpg" alt="delhi">
+<img src="../images1/hill-station-tour.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Hill Station Tours</h5>
@@ -204,7 +204,7 @@
 <a href="../trips-to-india/himachal-tour.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/listing/manali.jpg" alt="delhi">
+<img src="../images1/listing/manali.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">Himachal Tours</h5>
@@ -216,7 +216,7 @@
 <a href="north-east-india-tours.html">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
-<img src="../images/north-east-india-tours.jpg" alt="delhi">
+<img src="../images1/north-east-india-tours.jpg" alt="delhi">
 </div>
 <div class="tour-mig-lc-con tour-mig-lc-con2">
 <h5 class="overflow-hide">North East India Tours</h5>
@@ -245,7 +245,7 @@
 					<div class="product-list">
 			<a href="../trips-to-india/goa-beach-with-taj-tour.html"><div class="product-list-wrap">
 
-									<img src="../images/slider/1.jpg" alt="">
+									<img src="../images1/slider/1.jpg" alt="">
 								<div class="trip-info">
 					<h5>Goa Beach With Taj Tour </h5>
 					<p><span class="trip">Duration - 4 Nights / 5 Days</span></p>
@@ -260,7 +260,7 @@
 					<div class="product-list">
 			<a href="../trips-to-india/majestic-kerala-tour.html"><div class="product-list-wrap">
 
-									<img src="../images/slider/2.jpg" alt="">
+									<img src="../images1/slider/2.jpg" alt="">
 								<div class="trip-info">
 						<h5>Majestic Kerala Tour</h5>
 					<p><span class="trip">Duration - 6 Nights / 7 Days</span></p>
@@ -275,7 +275,7 @@
 					<a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/3.jpg" alt="">
+									<img src="../images1/slider/3.jpg" alt="">
 								<div class="trip-info">
 											<h5>Tiger Safari with Taj Mahal Tour</h5>
 					<p><span class="trip">Duration - 8 Nights / 9 Days</span></p>
@@ -290,7 +290,7 @@
 					<a href="../trips-to-india/amazing-gujarat-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/4.jpg" alt="">
+									<img src="../images1/slider/4.jpg" alt="">
 								<div class="trip-info">
 					<h5>Amazing Gujarat Tour</h5>
 					<p><span class="trip">Duration - 9 Nights / 10 Days</span></p>
@@ -305,7 +305,7 @@
 					<a href="../trips-to-india/golden-triangle-with-varanasi-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/5.jpg" alt="">
+									<img src="../images1/slider/5.jpg" alt="">
 								<div class="trip-info">
 					<h5>Golden Triangle with Varanasi Tour</h5>
 					<p><span class="trip">Duration - 8 Nights / 9 Days</span></p>
@@ -321,7 +321,7 @@
 	<a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/6.jpg" alt="">
+									<img src="../images1/slider/6.jpg" alt="">
 								<div class="trip-info">
 					<h5>Haridwar & Rishikesh with Golden Triangle Tour</h5>
 					<p><span class="trip">Duration - 8 Nights / 9 Days</span></p>
@@ -337,7 +337,7 @@
 		<a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/7.jpg" alt="">
+									<img src="../images1/slider/7.jpg" alt="">
 								<div class="trip-info">
 					<h5>Mumbai Aurangabad with Ajanta Ellora Cave</h5>
 					<p><span class="trip">Duration - 4 Nights / 5 Days</span></p>
@@ -352,7 +352,7 @@
 		<a href="../trips-to-india/discover-karnataka-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/8.jpg" alt="">
+									<img src="../images1/slider/8.jpg" alt="">
 								<div class="trip-info">
 					<h5>Discover Karnataka Tour</h5>
 					<p><span class="trip">Duration - 9 Nights / 10 Days</span></p>
@@ -367,7 +367,7 @@
 		<a href="../trips-to-india/kashmir-with-taj-mahal-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/9.jpg" alt="">
+									<img src="../images1/slider/9.jpg" alt="">
 								<div class="trip-info">
 					<h5>Kashmir With Tajmahal Tour</h5>
 					<p><span class="trip">Duration - 7 Nights / 8 Days</span></p>
@@ -382,7 +382,7 @@
 		<a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html">
 			<div class="product-list-wrap">
 
-									<img src="../images/slider/10.jpg" alt="">
+									<img src="../images1/slider/10.jpg" alt="">
 								<div class="trip-info">
 					<h5>Kolkata Varanasi With Golden Triangle Tour</h5>
 					<p><span class="trip">Duration - 9 Nights / 10 Days</span></p>
@@ -406,7 +406,7 @@
 @include('layouts.footer')
 
 <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
+	<a href="../enquiry.php" class="" ><img src="../images1/contact-butt.png"></a>
 </div>
 		<script type="text/javascript">
   $(document).ready(function() {
@@ -424,13 +424,13 @@
   });
 });
     </script>
-	<link rel='stylesheet' id='slick-css-css'  href='../css/slider/slick.min.css' type='text/css' media='all' />
-<script type='text/javascript' src='../js/slider/slick.min.js'></script>
-<script type='text/javascript' src='../js/slider/custom.js'></script>
+	<link rel='stylesheet' id='slick-css-css'  href='../css1/slider/slick.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='../js1/slider/slick.min.js'></script>
+<script type='text/javascript' src='../js1/slider/custom.js'></script>
 	<!--========= Scripts ===========-->
-	<script src="../js/jquery-latest.min.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/custom.js"></script>
+	<script src="../js1/jquery-latest.min.js"></script>
+	<script src="../js1/bootstrap.js"></script>
+	<script src="../js1/custom.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	</body>
 

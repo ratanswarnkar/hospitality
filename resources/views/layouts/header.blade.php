@@ -76,7 +76,7 @@
 				<div class="ed-mob-menu-con">
 					<div class="ed-mm-left">
 						<div class="wed-logo">
-							<a href="index.html"><img src="images/logo.png" alt="b2b hospitality india" class="img-responsive"
+							<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india" class="img-responsive"
 								/>
 							</a>
 						</div>
@@ -205,14 +205,14 @@
 					<div class="row">
 						<div class="col-xl-4 col col-lg-4 col-md-3 col-xs-12 col-sm-12">
 							<div class="wed-logo">
-								<a href="index.html"><img src="images/logo.png" alt="b2b hospitality india"
+								<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india"
 									class="img-responsive" />
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-2 col col-lg-2 col-md-3 col-xs-12 col-sm-12">
 							<a href="https://www.tripadvisor.in/Attraction_Review-g304551-d14052340-Reviews-B2B_Hospitality_Pvt_Ltd-New_Delhi_National_Capital_Territory_of_Delhi.html"
-							target="_blank"><img src="images/trip-advisor.svg" alt="b2b hospitality trip-advisor"
+							target="_blank"><img src="images/trip.png" alt="b2b hospitality trip-advisor"
 								class="trip-advisor img-responsive"></a>
 						</div>
 						<div class="social-footer col-md-3 col-lg-2 foot-com">
@@ -248,13 +248,13 @@
 									<ul>
 										<li>							
 											<a href="tel:011-4609 5752  ">
-												<i class="fa fa-phone"></i> 011-4609 5752 
-												<i class="fa fa-mobile"></i> +91 85100 65300
+												<i class="fa fa-phone"></i> 9810890465 
+												<i class="fa fa-mobile"></i> +91 99718 55984
 											</a>
 										</li>
 										<li>
-											<a href="mailto:query@b2bhospitalityindia.com">
-												<i class="fa fa-envelope"></i>												query@b2bhospitalityindia.com</a>
+											<a href="mailto:info@nextwisehospitality.co.in">
+												<i class="fa fa-envelope"></i>												info@nextwisehospitality.co.in</a>
 										</li>
 
 
@@ -274,36 +274,36 @@
 						<div class="col-md-12">
 							<div class="main-menu">
 								<ul>
-									<li><a href="index.html"><span class="fa fa-home home-icon"></span></a>
-										<li class="theme-menu"><a href="tour-packages-india">Themes  <i></i></a>
+									<li><a href="{{ asset('/')}}"><span class="fa fa-home home-icon"></span></a>
+										<li class="theme-menu"><a href="{{ asset('/themes')}}">Themes  <i></i></a>
 											<div class="mm-pos1">
 												<div class="theme-tour-mm theme-sub-menu">
 													<div class="m-menu-inn">
 														<div class="theme-mm-com mm-s1">
 															<ul class="sub-menu">
 
-																<li><a href="tour-packages-india/adventure-tours.html">Adventure Tours</a></li>
-																<li><a href="tour-packages-india/yoga-ayurveda-tour.html">Ayurveda & Yoga Tours</a></li>
-																<li><a href="tour-packages-india/beach-vacations-tours.html">Beach Tours</a></li>
-																<li><a href="tour-packages-india/kerala-backwaters-tour.html">kerala Backwater Tours</a></li>
-																<li><a href="tour-packages-india/buddhist-tours.html">Buddhist Tours</a></li>
-																<li><a href="tour-packages-india/heritage-tours.html">Culture & Heritage Tours</a></li>
-																<li><a href="tour-packages-india/family-vacation-tours.html">Family vacations Tours</a></li>
-																<li><a href="tour-packages-india/golden-triangle-tour.html">Golden Triangle Tours</a></li>
-																<li><a href="tour-packages-india/hill-station-tours.html">Hill Station Tours</a></li>
+																<li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li>
+																<li><a href="{{ asset('/ayurveda')}}">Ayurveda & Yoga Tours</a></li>
+																<li><a href="{{ asset('/beachs')}}">Beach Tours</a></li>
+																<li><a href="{{ asset('/kerala')}}">kerala Backwater Tours</a></li>
+																<li><a href="{{ asset('/buddhista')}}">Buddhist Tours</a></li>
+																<li><a href="{{ asset('/cultures')}}">Culture & Heritage Tours</a></li>
+																<li><a href="{{ asset('/family')}}">Family vacations Tours</a></li>
+																<li><a href="{{ asset('/golden')}}">Golden Triangle Tours</a></li>
+																<li><a href="{{ asset('/hill')}}">Hill Station Tours</a></li>
 
 															</ul>
 														</div>
 														<div class="theme-mm-com mm1-s2">
 															<ul>
 
-																<li><a href="trips-to-india/himachal-tour.html">Himachal Tours</a></li>
-																<li><a href="tour-packages-india/honeymoon-tours.html">Honeymoon Tours</a></li>
-																<li><a href="tour-packages-india/luxury-train-tour.html">Luxury Train Tours</a></li>
-																<li><a href="tour-packages-india/north-east-india-tours.html">North East India Tours</a></li>
-																<li><a href="tour-packages-india/pilgrimage-tours.html">Pilgrimage Tours</a></li>
+																<li><a href="{{ asset('/himachal')}}">Himachal Tours</a></li>
+																<li><a href="{{ asset('/honeymoon')}}">Honeymoon Tours</a></li>
+																<li><a href="{{ asset('/luxury')}}">Luxury Train Tours</a></li>
+																<li><a href="{{ asset('/north')}}">North East India Tours</a></li>
+																<li><a href="{{ asset('/pighal')}}">Pilgrimage Tours</a></li>
 
-																<li><a href="tour-packages-india/wildlife-tours.html">Wildlife Tours</a></li>
+																<li><a href="{{ asset('/wildlife')}}">Wildlife Tours</a></li>
 															</ul>
 														</div>
 

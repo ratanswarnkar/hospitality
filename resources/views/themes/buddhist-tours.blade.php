@@ -474,14 +474,14 @@ The best time to visit these places is winters i.e. between November and March. 
   });
 });
     </script>
-	<link rel='stylesheet' id='slick-css-css'  href='../css/slider/slick.min.css' type='text/css' media='all' />
-            <script type='text/javascript' src='../js/slider/slick.min.js'></script>
-            <script type='text/javascript' src='../js/slider/custom.js'></script>
+	<link rel='stylesheet' id='slick-css-css'  href='../css1/slider/slick.min.css' type='text/css' media='all' />
+            <script type='text/javascript' src='../js1/slider/slick.min.js'></script>
+            <script type='text/javascript' src='../js1/slider/custom.js'></script>
 			
 	<!--========= Scripts ===========-->
-	<script src="../js/jquery-latest.min.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/custom.js"></script>
+	<script src="../js1/jquery-latest.min.js"></script>
+	<script src="../js1/bootstrap.js"></script>
+	<script src="../js1/custom.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	</body>
 

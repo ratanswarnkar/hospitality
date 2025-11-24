@@ -9,13 +9,13 @@
 						<div class="row">
                             <div class="col-sm-6 col-md-4 col-xs-12 foot-spec foot-com contact-align1">
 								<h4><span>Contact Info</span></h4>
-								<p>B2B Hospitality Pvt. Ltd.</p>
-								<p>Plot - No. 94, Block-B, Pocket-10,</p>
-								<p>Near Radisson Hotel, Dwarka,</p>
-								<p>Sector - 13, New-Delhi 110075, India</p>
-								<p>Mobile No. : + 91 - 8448293059</p>
-								<p>Telephone No. : + 91 - 11 - 28084890 </p>
-								<p>E-mail : query@b2bhospitalityindia.com</p>
+								<p>NEXT-WISE Hospitalites Pvt. Ltd.</p>
+								<p>24A/3, Knowledge Park-3,</p>
+								<p> Greater Noida-201310, Uttar Pradesh</p>
+								<p>India</p>
+								<p>Mobile No. : + 91 - 99718 55984</p>
+								<p>Telephone No. : + 91 -  9810890465 </p>
+								<p>E-mail :  info@nextwisehospitality.co.in</p>
 								
 							</div>
 
@@ -120,7 +120,7 @@
 <section> 
 	<div class="rows copy">
 		<div class="container">
-			<p>Copyrights © 2011 B2B Hospitality Pvt.
+			<p>Copyrights © 2020 NEXT-WISE Hospitalites Pvt.
 				Ltd. All Rights Reserved</p>
 
 		</div>

@@ -1,0 +1,444 @@
+/*
+Theme Name: Travel Eye
+Theme URI: https://wenthemes.com/item/wordpress-themes/travel-eye/
+Author: WEN Themes
+Author URI: https://wenthemes.com/
+Description: Travel Eye is a clean and professional Travel WordPress Theme. This Theme is ideal for travel agencies, hotels, tour operators or any other organization related to travel and tours. It is powered by Page Builder by Site Origin, so drag-and-drop feature will be very handy to customize the page layout as you want. It has Theme Options panel based on powerful Customizer API which makes theme pretty easy to customize and configure. Prebuilt layout is available for home page so you can get your page layout in one click. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=travel-eye
+Version: 1.7.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travel-eye
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, translation-ready, theme-options, threaded-comments, footer-widgets, entertainment, editor-style, custom-logo
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+This theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+    ## Links
+    ## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+    ## Asides
+    ## Comments
+# Infinite scroll
+# Media
+    ## Captions
+    ## Galleries
+# Custom by WEN Themes
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+h3 {
+    font-size: 26px;
+    text-align: center;
+    color: #6c9234;
+}
+
+h5 {
+    font-size: 18px;
+    color: #d01827;
+    padding: 5px 0;
+    margin: 0px;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 0 1.5em;
+}
+
+address {
+    margin: 0 0 1.5em;
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+big {
+    font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+img {
+    height: auto;
+    /* Make sure images are scaled correctly. */
+    max-width: 100%;
+    /* Adhere to container width. */
+}
+
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+### Featured Trips style By WEN Themes
+--------------------------------------------------------------*/
+
+.so-widget-travel-eye-featured-trips .product-list {
+    background-color: #ffffff;
+    margin: 10px;
+    width: 250px;
+}
+
+.so-widget-travel-eye-featured-trips .slideshow {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.so-widget-travel-eye-featured-trips .travel-eye-featured-trips {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.so-widget-travel-eye-featured-trips .slick-arrow {
+    cursor: pointer;
+    display: block;
+    height: 46px;
+    position: absolute;
+    top: 30%;
+    width: 60px;
+    z-index: 99;
+}
+
+.so-widget-travel-eye-featured-trips .slick-prev {
+    left: -100px;
+}
+
+.so-widget-travel-eye-featured-trips .slick-next {
+    right: -100px;
+}
+
+.so-widget-travel-eye-featured-trips:hover .slick-prev {
+    left: -5px;
+}
+
+.so-widget-travel-eye-featured-trips:hover .slick-next {
+    right: -5px;
+}
+
+.so-widget-travel-eye-featured-trips i {
+    background: #ffffff none repeat scroll 0 0;
+    line-height: 1;
+    padding: 5px 10px 3px 10px;
+    font-size: 37px;
+    color: #dd3333;
+}
+
+.so-widget-travel-eye-featured-trips i:hover {
+    background: #dd3333;
+    color: #fff;
+}
+
+.so-widget-travel-eye-featured-trips .cycle-pager {
+    bottom: -5px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.so-widget-travel-eye-featured-trips .cycle-pager span {
+    background: #cccccc none repeat scroll 0 0;
+    color: #dd3333;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    height: 12px;
+    margin: 0 4px;
+    text-indent: 9999em;
+    transition: all 0.4s ease-in-out 0s;
+    width: 12px;
+    border-radius: 100%;
+}
+
+.so-widget-travel-eye-featured-trips .cycle-pager span.cycle-pager-active {
+    background: #dd3333;
+}
+
+.so-widget-travel-eye-featured-trips .trip-info a {
+    color: #ffffff;
+}
+
+.so-widget-travel-eye-featured-trips .trip-info a:hover {
+    color: #dd3333;
+}
+
+.so-widget-travel-eye-featured-trips .cycle-pager.product-pager {
+    font-size: 37px;
+    line-height: 0.5;
+    text-align: center;
+}
+
+.so-widget-travel-eye-featured-trips .product-list-wrap {
+    position: relative;
+}
+
+.so-widget-travel-eye-featured-trips .trip-price {
+    background: #dd3333 none repeat scroll 0 0;
+    color: #ffffff;
+    font-family: 'calibri';
+    padding: 3px 10px;
+    position: absolute;
+    right: -6px;
+    top: 8px;
+}
+
+.so-widget-travel-eye-featured-trips .trip-info> {
+    background: #979797 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px 20px;
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+}
+
+.so-widget-travel-eye-featured-trips .trip-day {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 100%;
+    bottom: 20px;
+    box-shadow: 5px 1px 0 #666666;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    left: inherit;
+    line-height: 1.2;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.so-widget-travel-eye-featured-trips .trip-price::after {
+    border-bottom: 9px solid rgba(0, 0, 0, 0);
+    border-left: 7px solid #000000;
+    bottom: -9px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.so-widget-travel-eye-featured-trips .product-list-wrap {
+    position: relative;
+}
+
+.ow-pt-per,
+.ow-pt-price {
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+/*--------------------------------------------------------------
+##  Media Queries By WEN Themes
+--------------------------------------------------------------*/
+
+/* Smaller than standard 1139 (devices and browsers) */
+
+@media only screen and (min-width:1400px) {
+    .so-widget-travel-eye-featured-trips .slideshow {
+        margin: 0 auto;
+        padding-bottom: 15px;
+        width: 810px !important;
+    }
+    .so-widget-travel-eye-booking .booking-form-widget-wrapper {
+        margin-top: -75px !important;
+    }
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+
+@media only screen and ( max-width: 1025px) {}
+
+/* Smaller than standard 1024 (devices and browsers) */
+
+@media only screen and (max-width:1023px) {
+    .sow-features-list .sow-features-feature.sow-features-feature-last-row {
+        float: left;
+        margin-bottom: 0;
+        width: 33% !important;
+    }
+    .widget_sow-slider .sow-slide-nav.sow-slide-nav-next,
+    .widget_sow-slider .sow-slider-pagination,
+    .widget_sow-slider .sow-slide-nav.sow-slide-nav-prev {
+        display: block !important;
+    }
+    .sow-slider-image-wrapper {
+        padding: 200px 50px 0 !important;
+    }
+    .so-widget-sow-hero ul.sow-slider-images li.sow-slider-image video.sow-background-element {
+        width: 100% !important;
+        top: -100px !important;
+    }
+    .sow-slider-image-wrapper {
+        padding: 0 !important;
+    }
+    .so-widget-sow-hero ul.sow-slider-images li.sow-slider-image {
+        height: 500px !important;
+        width: 100%;
+    }
+    .builder-overlap #masthead {
+        background: #000000 none repeat scroll 0 0;
+        position: inherit;
+    }
+    ul.sow-slider-images li.sow-slider-image .sow-slider-image-container .sow-slider-image-wrapper {
+        padding-top: 50px !important;
+    }
+    #primary .sow-slide-nav {
+        display: block !important;
+    }
+    .so-widget-travel-eye-featured-trips .product-list {
+        margin: 10px;
+        width: 200px;
+    }
+    .so-widget-travel-eye-featured-trips .slideshow {
+        margin: 0 auto;
+        padding-bottom: 15px;
+        width: 661px !important;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and (max-width:800px) {}
+
+/* All Mobile Sizes (devices and browser) */
+
+@media only screen and ( max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media only screen and ( max-width: 479px) {
+    .so-widget-travel-eye-featured-trips .slideshow {
+        margin: 0 auto;
+        padding-bottom: 15px;
+        width: 220px !important;
+    }
+}

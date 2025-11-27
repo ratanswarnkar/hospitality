@@ -62,7 +62,63 @@ public function wildlif(){
     return view('themes.wildlife-tours');
 }
 
+public function special(){
+    return view('special_tours.index');
+}
 
+public function bicycle(){
+    return view('special_tours.bicycle-tours');
+}
+
+public function wine(){
+    return view('special_tours.wine-tours');
+}
+
+public function haunted(){
+    return view('special_tours.haunted-tours-india');
+}
+
+public function slum(){
+    return view('special_tours.slum-tours');
+}
+
+public function bollywood(){
+    return view('special_tours.bollywood-tours');
+}
+
+public function fair(){
+    return view('fair-festival');
+}
+
+public function hot(){
+    return view('hot-deals');
+}
+
+public function enquir(){
+    return view('enquiry');
+}
+
+public function abou(){
+    return view('about');
+}
+
+public function director(){
+    return view('directors');
+}
+
+public function she(){
+    return view('themes.comman.sher');
+}
+public function gujrat(){
+    return view('themes.comman.gujrat');
+}
+public function goldenVaranasi(){
+    return view('themes.comman.golden-triangle-with-varanasi-tour');
+}
+
+public function blo(){
+    return view('blog');
+}
 
 
 

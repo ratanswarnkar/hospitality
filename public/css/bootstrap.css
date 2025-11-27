@@ -2061,7 +2061,7 @@ pre code {
 .col-md-12,
 .col-lg-12 {
     position: relative;
-    min-height: 1px;
+    min-height: 50px;
     padding-right: 15px;
     padding-left: 15px;
 }

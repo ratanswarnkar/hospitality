@@ -1,5 +1,84 @@
 @include('layouts.header')
 
+<style>
+/* Caption container styling */
+.banner-caption {
+  position: absolute;
+  top: 63%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: max-content;
+  min-width: 280px;
+}
+
+/* Glass effect box */
+.glass-box {
+  padding: 25px 40px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15); /* transparent white */
+  backdrop-filter: blur(10px); /* main blur effect */
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  animation: fadein 1.2s ease-out;
+}
+
+/* Text */
+.glass-box h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+}
+
+/* Button */
+.banner-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 50px;
+  background: #d31010;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.banner-btn:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+  .glass-box {
+    padding: 15px 25px;
+  }
+  .glass-box h2 {
+    font-size: 24px;
+  }
+  .banner-btn {
+    padding: 10px 18px;
+    font-size: 16px;
+  }
+}
+
+
+</style>
+
 		<!--BANNER SECTION-->
 		<section>
 			<div class="tourz-search">
@@ -12,19 +91,36 @@
                               <div class="carousel-inner carousel-inner1" role="listbox">
 							  
                                  <div class="item active">
-                                 <img src="images/consul-bg-1.jpg" alt="balukphont" width="1369" height="450"> 
+                                 <img src="images/consul-bg-1.png" alt="balukphont" width="1369" height="450"> 
 								<!-- <img  src="images/Banner-2.jpg" alt="taj-mahal" width="1369" height="450"> -->
                                  </div>
+                                 <div class="banner-caption glass-box">
+    <h2>Discover Luxury <br> Travel</h2>
+    <a href="{{ asset('/enquiry') }}" class="banner-btn">Plan My Trip →</a>
+</div>
+
 								 
                                 <div class="item">
-                                  <img src="images/consul-bg-2.jpg" alt="kamakhya-temple-guwahati" width="1369" height="450">  
+                                  <img src="images/consul-bg-2.png" alt="kamakhya-temple-guwahati" width="1369" height="450">  
 								 <!-- <img style="background-repeat:no-repeat; background-size:100% 100%; max-width:100%" src="images/banner-1.png" alt="balukphont" width="1369" height="450"> -->
                                  </div> 
+
+                                 <div class="banner-caption glass-box">
+    <h2>Discover Luxury <br> Travel</h2>
+    <a href="{{ asset('/enquiry') }}" class="banner-btn">Plan My Trip →</a>
+</div>
+
 								 
 								 <div class="item">
-                                  <img src="images/consul-bg-3.jpg" alt="kamakhya-temple-guwahati" width="1369" height="450">  
+                                  <img src="images/consul-bg-3.png" alt="kamakhya-temple-guwahati" width="1369" height="450">  
 								 <!-- <img style="background-repeat:no-repeat; background-size:100% 100%; max-width:100%" src="images/banner-1.png" alt="balukphont" width="1369" height="450"> -->
                                  </div> 
+
+                                 <div class="banner-caption glass-box">
+    <h2>Discover Luxury <br> Travel</h2>
+    <a href="{{ asset('/enquiry') }}" class="banner-btn">Plan My Trip →</a>
+</div>
+
 								
                               </div>
                               <!-- Left and right controls -->  
@@ -50,293 +146,95 @@
 	<div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 	<article class="home-about">
-	<p>Travelling isn't just an activity but an emotion that makes every individual happy and content. Making travel dreams come to life, and to see that satisfying smile on every traveller’s face, B2B Hospitality Pvt Ltd has come into existence in 2011.  Since then we have managed to become the leading Indian travel Agency headquartered in Delhi. We take great pride in providing the best travel packages for every kind and for every soul.</p>
-    <p>We, at B2B Hospitality Pvt Ltd, are committed to the idea that nothing should come between you and the best that the world has to offer. Not the rules and regulations, not the distances and spaces, not the languages spoken in different regions. Nothing. And for that matter, we cater and take care of all your hospitality needs and make it possible for you to jump over all the hurdles to make a memorable yet amazing experience.</p>
-	<p>We ensure to put hard-work and enthusiasm to entail and capture the opportunity for our clients to open up to a multitudinous enjoyable experience. Whatever may be your need, be it for Events, Inbound/ Outbound tours, Corporate Tours, Conferences, Weddings/ Receptions and etc. Our effective and efficient team of experts makes sure that experience with us remains the best experience you ever had. </p>
-	<p>We know that two travellers are completely different on choices and tastes, and that is why we at B2B, customize every tour with a personalized experience. With an abundance of knowledge and expertise of regions and business, we endeavour a variety of options that will meet the needs of every traveller.</p>
-	<p><b>B2B (Better to Best) Hospitality</b> knows the art of perfection & help you to discover the best destination and package as per your taste. We strive to earn spaces in hearts and smile on the faces of our clients.</p>
-	<p><b>Atithi Devo Bhava</b> - The guest is equivalent to God. When it comes to hospitality, the guests are given the utmost importance and adored like God. They all are welcomed with warmth and respect regardless of their caste, gender, colour or creed.<p>
+	<p> Travelling is not just an activity — it is an emotion that brings joy, peace, and a sense of fulfillment. With a vision to turn every travel dream into reality and to create meaningful journeys, NEXT-WISE Hospitality Pvt. Ltd. came into existence. Since then, we have proudly evolved into one of India’s reliable and experience-driven travel and hospitality organizations, headquartered in Delhi. We take immense pride in offering thoughtfully curated travel experiences suitable for every personality, purpose, and preference. </p> <p> At NEXT-WISE Hospitality, we believe that nothing should stand between you and the extraordinary experiences that the world has to offer — not rules, not distance, not language barriers, nor boundaries. With complete dedication, we take care of every hospitality need, ensuring that you overcome every limitation and embrace a truly memorable and seamless journey. </p> <p> We invest passion, precision, and effort into delivering exceptional services that unlock countless enjoyable experiences for our clients. Whether your requirement is Events, Inbound/Outbound Tours, Corporate Travel, Conferences, Destination Weddings, Receptions, or more — our highly experienced and efficient team ensures that every moment with NEXT-WISE Hospitality becomes one of the finest experiences of your life. </p> <p> We understand that no two travellers are the same — preferences, lifestyles, and expectations differ, and so should their journeys. That is why at NEXT-WISE Hospitality, every trip is customized with a personalized touch. With deep expertise in global destinations, hospitality, and tourism, we offer a variety of tailored travel solutions that cater to every unique traveler. </p> <p> <b>NEXT-WISE Hospitality</b> believes in the art of excellence and ensures you discover the right destination and perfect experience that matches your taste. Our purpose goes beyond travel — we aim to earn a place in your memories and bring smiles that last a lifetime. </p> <p> <b>“Atithi Devo Bhava”</b> — meaning *The Guest is God* — remains at the heart of our culture. With warmth, respect, and compassion, we welcome every guest regardless of background, culture, gender, or belief. At NEXT-WISE, hospitality is not just a service — it is a heartfelt promise. </p>
 	
 	</article>
+
+    
 	
 	</div>
 	</div>
 	</div>
 	</section>
-	<section>
+	<br><br>
+    <div style="width: 100%; height: 1px; background-color: #000;"></div>
+    <br><br>
 	
-    </section>
-	
-    <section>
-        <div class="rows pad-bot-redu tb-space">
-		
-            <div class="container">
-			
-                <!-- TITLE & DESCRIPTION -->
-                <div class="spe-title">
-                    <h1>India <span>Tour Packages</span></h1>
-                 </div>
-                
-                    <!-- TOUR PLACE 1 -->
-                   <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow slideInUp" data-wow-duration="0.5s">
-				    <a href="#">
-                        <!-- OFFER BRAND -->
-                        
-                        <!-- IMAGE -->
-                        <div class="v_place_img"> <a href="tour-packages-india/wildlife-tours.html"><img src="images/wildlife.jpg" alt="wildlife"  /></a> </div>
-                        <!-- TOUR TITLE & ICONS -->
-                        <div class="b_pack rows">
-                            <!-- TOUR TITLE -->
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide" ><a href="tour-packages-india/wildlife-tours.html">Wildlife</a></h4>
-                            </div>
-                            <!-- TOUR ICONS -->
-                           
-                        </div>
-						</a>
-                    </div>
-					
-                    <!-- TOUR PLACE 2 -->
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="0.7s">
-					<a href="#">
-                        <!-- OFFER BRAND -->
-                       
-                        <!-- IMAGE -->
-                        <div class="v_place_img"> <a href="tour-packages-india/luxury-train-tour.html"><img src="images/luxury-train.jpg" alt="luxary train" /></a> </div>
-                        <!-- TOUR TITLE & ICONS -->
-                        <div class="b_pack rows">
-                            <!-- TOUR TITLE -->
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide" ><a href="tour-packages-india/luxury-train-tour.html">Luxury Train</span></a></h4>
-                            </div>
-                            <!-- TOUR ICONS -->
-                           
-                        </div>
-						</a>
-                    </div>
-					
-					 <!-- TOUR PLACE 6 -->
-					 
-                   <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="1.5s">
-				    <a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/honeymoon-tours.html"><img src="images/honeymoon.jpg" alt="honeymoon"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide" ><a href="tour-packages-india/honeymoon-tours.html">Honeymoon</span></a></h4>
-                            </div>
-                          
-                        </div>
-						</a>
-                    </div>
-					
-                    <!-- TOUR PLACE 3 -->
-					
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="0.9s">
-					<a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/family-vacation-tours.html"><img src="images/south-india.jpg" alt="south india"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide"><a href="tour-packages-india/family-vacation-tours.html">Family vacations<span class="v_pl_name"></span></a></h4>
-                            </div>
-                            
-                        </div>
-						</a>
-                    </div>
-					
-                    <!-- TOUR PLACE 4 -->
-					
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="1.1s">
-					<a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/heritage-tours.html"><img src="images/rajasthan.jpg" alt="rajasthan"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide"><a href="tour-packages-india/heritage-tours.html">Cultural Tour</span></a></h4>
-                            </div>
-                           
-                        </div>
-						</a>
-                    </div>
-					
-                    
-					
-                    <!-- TOUR PLACE 6 -->
-					
-					
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="1.5s">
-					<a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/north-east-india-tours.html"><img src="images/northeast.jpg" alt="north-east india"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide"><a href="tour-packages-india/north-east-india-tours.html">North-East India</span></a></h4>
-                            </div>
-                            
-                        </div>
-						</a>
-                    </div>
-					
-					 <!-- TOUR PLACE 7 -->
-					
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="1.5s">
-					 <a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/buddhist-tours.html"><img src="images/budhist-tour.jpg" alt="budhist tour"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide"><a href="tour-packages-india/buddhist-tours.html">Buddhist Tour</span></a></h4>
-                            </div>
-                          
-                        </div>
-						</a>
-                    </div>
-					
-					<!-- TOUR PLACE 5 -->
-					
-                    <div class="col-md-3 col-sm-6 col-xs-6 b_packages wow fadeInUp" data-wow-duration="1.3s">
-					<a href="#">
-                        <div class="v_place_img"><a href="tour-packages-india/kerala-backwaters-tour.html"><img src="images/kerala-backwaters.jpg" alt="kerala"  /></a> </div>
-                        <div class="b_pack rows">
-                            <div class="col-md-8 col-sm-8">
-                                <h4 class="overflow-hide" ><a href="tour-packages-india/kerala-backwaters-tour.html">kerala Backwaters</span></a></h4>
-                            </div>
-                            
-                        </div>
-						</a>
-                    </div>
-					
-					
-                   
+ 
+<section class="about-section py-5" style="background-color: #f6f6f6;">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <!-- Image -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="images/about-pi.png" class="img-fluid rounded-4 shadow" alt="About Image">
             </div>
-        </div>
-    </section>
-	<section>
-	<div class="container">
-	<div class="row">
-	<div class="col-md-12 col-sm-12 col-xs-12 view-more-sec">
-	<p><a class="view-more" href="tour-packages-india">View More Packages <i class="fa fa-arrow-right"> </i></a></p>
-	</div>
-	</div>
-	</div>
-	
-	
-	
-	
-	</section>
-    <!--====== HOME HOTELS ==========-->
-    <section>
-	
-        <div class="rows tb-space pad-top-o pad-bot-redu">
-            <div class="container">
-                <!-- TITLE & DESCRIPTION -->
-                <div class="spe-title popular-destinations">
-                    <h2>Popular <span>Destinations</span> </h2>
-                   
-                </div>
-                <!-- CITY -->
-               <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/delhi-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/delhi.jpg" alt="delhi"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Delhi</h5>
-                              
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6 wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/agra-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/agra.jpg" alt="agra"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Agra</h5>
-                               
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/jaipur-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/jaipur.jpg" alt="jaipur"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Jaipur</h5>
-                                
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/goa.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/goa.jpg" alt="goa"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Goa</h5>
-                              
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/himachal-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/himachal.jpg" alt="himachal"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Himachal</h5>
-                               
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				 <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/karnataka-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/karnataka.jpg" alt="karnataka"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Karnataka</h5>
-                               
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				 <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/gaya-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/bodhgaya.jpg" alt="bodhgaya"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Bodhgaya</h5>
-                               
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				 <div class="col-md-3 col-sm-6 col-xs-6  wow slideInUp" data-wow-duration="0.5s">
-                    <a href="trips-to-india/tamilnadu-tour.html">
-                        <div class="tour-mig-like-com">
-                            <div class="tour-mig-lc-img"> <img src="images/listing/tamilnadu.jpg" alt="tamil nadu"> </div>
-                            <div class="tour-mig-lc-con tour-mig-lc-con2">
-                                <h5>Tamil nadu</h5>
-                                
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
+            <!-- Text -->
+            <div class="col-lg-6">
+                <h2 class="text-uppercase text-muted mb-2">About</h2>
+                <h2 class="fw-bold mb-4"><span style="color:#000;">NEXT-WISE </span><span style="color:#d31010;">HOSPITALITY</span></h2>
+
+               <p> Imagine you dream something and it becomes real. That moment of happiness has built us as an organization. We work for your dreams and make them picture perfect. NEXT-WISE Hospitality Pvt. Limited is a dedicated team of enthusiastic people turning visions into meaningful and memorable experiences. </p> 
+               <p> We, at NEXT-WISE Hospitality Pvt. Ltd., are committed to ensuring that nothing comes between you and the best that the world has to offer. Neither rules nor distance, neither boundaries nor languages — nothing stands as a barrier. With complete dedication, we take care of all your hospitality needs and make it possible for you to overcome every hurdle in order to live a seamless, premium, and unforgettable experience. </p>
+                <p> We ensure to put hard work and passion into capturing the opportunity for our clients to explore diverse, joyful, and personalized experiences. Whether your need is for Events, Inbound / Outbound tours, Corporate Travel, Conferences, Weddings, Receptions, or much more — our experienced and efficient team ensures that every moment with NEXT-WISE Hospitality becomes one of the best experiences you ever have. </p>
             </div>
+          <a href="{{ asset('/about') }}">  <button style="background-color:#d31010; color:#fff; border:none; padding:10px 20px; border-radius:5px;">Read More</button></a>
         </div>
-		
-    </section>
-    <!--====== HOME HOTELS ==========-->
-   	<section>
-	<div class="container">
-	<div class="row">
-	<div class="col-md-12 col-sm-12 col-xs-12 view-more-sec">
-	<p><a class="view-more" href="trips-to-india">View More Destinations <i class="fa fa-arrow-right"> </i></a></p>
-	</div>
-	</div>
-	
-	
-	
-	
-	</section>
-	 <section>
+    </div>
+</section>
+
+<style>
+     .about-section p, .extra-about p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.about-section img {
+    padding-top:20px;
+    padding-bottom:20px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.extra-about h5 {
+    font-size: 20px;
+}
+.testimonial-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.client-img {
+    width: 90%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    background: #f6f6f6;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 140px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.review-text strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #d31010;
+}
+
+</style>
+
+<br><br>
+    <div style="width: 100%; height: 1px; background-color: #000;"></div>
+    <br><br>
+	 <!-- <section>
         
 
             
@@ -345,7 +243,7 @@
         <div class="clearfix"></div>
 
         
-        <div class="clearfix"></div>
+        <div class="clearfix"></div> -->
         
    
     <section>
@@ -357,47 +255,45 @@
                 
                     <!-- TESTIMONIAL TITLE -->
                    
-                   <p class="home-content">One of the most treasured countries in the world, India, beholds some of the iconic wonders.  From natural beauty to historical heritage sites, from ancient forts to gigantic palaces, the country is sure to leave you mesmerised with its spellbound beauty.  India is the only place on earth where you can experience unity in diversity where the ancient and the modern lives co-exist. A beautiful amalgamation of destinations from green highlands, enchanting beaches, big sand dunes, snow filled mountains to peaceful lively villages which amazes tourists the most. Surrounded by the great Himalayas, the Arabian Sea, Bay of Bengal and the Indian Ocean, its unique location is magnificent for every kind of traveller. Its rich culture, heritage, exquisite cuisine, classical dance forms, festivals, unique style temples, huge wildlife attracts visitors from all over the world. Visiting India is a dream of every foreigner, the reason behind is India has a lot to travel and explore. India is one of the most ancient civilizations in the world which get its name from the Indus River Valley which was once the home of early Aryan settlers. Successful Bollywood industry, Strong Indian cricket team, Vibrant culture, Colorful festivals, Taj Mahal, Soul rejuvenating Yoga, Lip smacking food, Delightful toy train journeys, Rich History & Heritage are more than enough to make India Incredible one in the real sense and different from others. Investment in travel is an investment in you, so don’t be a tourist, be a traveller and get ready for rejuvenating tour. The spice of our hospitality is a big reason for repeat visitors.</p>
-                   <p class="home-content">As one of the leading travel agencies in India,<b> B2B Hospitality Pvt Ltd </b>is popular for tailor-made tours of not only the topmost destinations but to every beautiful corner of the country. Your place of interest is our command to curate best-ever experience. We prioritize your list of interests and preferences so that you always get what you are looking for. With our in-depth knowledge and advanced setup, we can arrange everything from hotels, transportation, tickets, meals and everything else that brings you closer to the country.</p>
-                </div>
+                  <p class="home-content"> India is one of the most fascinating countries in the world — a land where history, spirituality, and culture blend seamlessly with modern aspirations. From breathtaking natural landscapes to architectural masterpieces, from ancient palaces to timeless heritage sites, India enchants every traveler with its unmatched beauty and soul-stirring experiences. <br><br> It is the only country where “unity in diversity” is not just a phrase, but a way of life. India offers a spectacular mix of snow-covered mountains, serene beaches, golden deserts, dense forests, vibrant cities, and peaceful rural retreats — making it a paradise for every kind of traveler. Bordered by the majestic Himalayas and surrounded by the Arabian Sea, Bay of Bengal, and Indian Ocean, its geographical diversity is extraordinary. <br><br> India’s rich heritage, food culture, classical dance forms, festivals, ancient temples, wildlife, yoga legacy, Bollywood, sports spirit, and timeless history have made it a dream destination for millions worldwide. From the Wonder of the World — the Taj Mahal — to spiritual sanctuaries, colorful festivals, and unforgettable train journeys, India stands apart as a destination that touches hearts and transforms perspectives. <br><br> India is not just a place to visit — it is a place to feel, explore, and rediscover yourself. So when you travel, don’t just be a visitor; be a wanderer, a learner, a storyteller. Because travel is an investment in yourself — and India promises memories that stay forever. </p> <p class="home-content"> As one of India’s trusted travel experience experts, <b>NEXT-WISE Hospitality Pvt. Ltd.</b> specializes in designing personalized journeys across every region of the country — from famous tourist attractions to hidden gems untouched by mass tourism. <br><br> Your interests, preferences, and travel dreams guide our planning — ensuring every itinerary reflects exactly what you desire. With extensive knowledge of destinations, strong partnerships, and a highly experienced team, we seamlessly manage hotels, transport, tickets, meals, guided experiences, and every detail that enhances your journey. <br><br> With NEXT-WISE Hospitality, you don’t just explore India — you experience it. </p></div>
             </div> 
 			
 			
-			<div class="container">
+			<!-- <div class="container">
                 <div class="col-md-12 col-sm-12 col-xs-12">
 				<h3 class="client-speak">Client's Speak</h3>
 					 <div id="carousel-fb-vid" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                         
                         	<div class="item active">
-                                <div class="col-md-4 col-sm-6">    
-                                    <div id="yt-container-1"> <img id="youtube-img-1" src="images/client/video_1.jpg" width="375" height="230" class="img-responsive" alt="" style="cursor:pointer" > </div>
-                                    <div class="video-caption">
-                                        <div><span>Wonderful Guests</span></div>
-                                        <strong>Country: South Africa</strong>
-                                        <p>Tour - Exclusive Rajasthan with Taj</p>
-                                    </div>
-                                </div>
-                            
-                                <div class="col-md-4 col-sm-6">    
-                                    <div id="yt-container-2"> <img id="youtube-img-2" src="images/client/video_2.jpg" width="375" height="230" class="img-responsive" alt="" style="cursor:pointer" ></div>
-                                    <div class="video-caption">
-                                       <div><span>Wonderful Guests</span></div>
-                                        <strong>Country:  Philippines </strong>
-                                        <p>Tour - N/A</p>
-                                    </div>
-                                </div>
-								
-								<div class="col-md-4 col-sm-6">    
-                                    <div id="yt-container-3"> <img id="youtube-img-3" src="images/client/video_3.jpg" width="375" height="230" class="img-responsive" alt="" style="cursor:pointer" ></div>
-                                    <div class="video-caption">
-                                       <div><span>Mr Paul Beach</span></div>
-                                        <strong>Country: UK </strong>
-                                        <p>Tour - Golden Triangle Tour India </p>
-                                    </div>
-                                </div>
-								
-                            </div>
+    <div class="col-md-4 col-sm-6 testimonial-box">
+        <img src="images/client1.jpg" class="client-img img-responsive">
+        <div class="review-text">
+            <p>"Our India trip was simply unforgettable — NEXT-WISE arranged everything so perfectly!"</p>
+            <strong>John & Emma</strong><br>
+            <span>United Kingdom</span>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 testimonial-box">
+        <img src="images/client2.jpg" class="client-img img-responsive">
+        <div class="review-text">
+            <p>"Amazing hospitality, luxury hotels, smooth travel — highly recommended!"</p>
+            <strong>Maria R.</strong><br>
+            <span>Philippines</span>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 testimonial-box">
+        <img src="images/client3.avif" class="client-img img-responsive">
+        <div class="review-text">
+            <p>"A beautifully organized travel experience — worth every moment!"</p>
+            <strong>William P.</strong><br>
+            <span>South Africa</span>
+        </div>
+    </div>
+</div> -->
+
 
                         </div>
                         
@@ -410,9 +306,9 @@
                         <div class="clearfix"></div>
                  		<br>
 
-                         <div class="col-md-12 text-center">
+                         <!-- <div class="col-md-12 text-center">
                             <a href="testimonials.html" class="sub-view-all link-btn">View All</a>
-                         </div>
+                         </div> -->
                  
 						 <script type="text/javascript">
                             $( "#youtube-img-1" ).click(function() {
@@ -443,42 +339,417 @@
     </section>
 	
 	</div>
-	<section style="display:none;">
-        <div class="rows pla_ pad-bot-redu tb-space">
-		
-            <div class="pla1 p-home container">
-                <!-- TITLE & DESCRIPTION -->
-                <div class="spe-title spe-title-1" >
-                    <h2>Our <span>Blog</span> </h2>
-                    
-                   
-				<div class="col-md-12 col-sm-6 col-xs-12 place">
-				<div id="myCarousel_" class="carousel slide" data-ride="carousel">
-				
-				<div class="carousel-inner">
-               
-				<div class="item active">
-                    <!-- POPULAR PLACES 1 -->
-                    <div class="col-md-12 col-sm-6 col-xs-12 place">
-                        
-                        <div class="col-md-6 col-sm-12 col-xs-12 blog-content">
-                            <h3>Welcome to Panchmahotsav in Gujarat<span>21 Dec 2018</span></h3>
-                            <p>Panchmahal’s Champaner – Pavagadh is <strong>Gujarat’s first World Heritage</strong> Site declared by UNESCO which is a fact of proud and honor. Soothing natural beauty, fascinating tribal culture, incomparable archaeological monuments, and tranquil spirituality, all of these get amalgamated at Panchmahal. The district proudly holds major places of three religions; Archaeological mosques, The Mahakali temple and <strong>Digamber Jain temples</strong>. With Such uniqueness and striking features, Panchmahal deserves more courtesy &amp; recognition. Hence, it is our joint duty to put our best foot forward &amp; endeavour that the district gets its well-deserved recognition.</p><a href="https://www.b2bhospitalityindia.com/blog/welcome-to-panchmahotsav-in-gujarat/" target="_blank"class="link-btn">Read more <i class="fa fa-arrow-right"></i></a> </div>
-							<div class="col-md-6 col-sm-12 col-xs-12 blog-image" style="padding-top:5%"> <img src="https://www.b2bhospitalityindia.com/blog/wp-content/uploads/2018/12/Panchmahotsav-in-Gujrat.jpg" alt="" style=""/> </div>
-                    </div>
-                    <!-- POPULAR PLACES 2 -->
-                   
-					</div>
-					
-					
-                </div>
-               
-            </div>
-			</div>
-			</div>
+
+    <section class="pt60 pb50-md" style="background-color: #f6f6f6;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="00ms">
+        <div class="main-title">
+          <h2 class="title" style="color: #000 !important;">Hear from our satisfied clients</h2>
+          <p class="paragraph" style="color: #555 !important;">"Read what our satisfied clients have to say about their remarkable experiences with us!"</p>
         </div>
-		</div>
-    </section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="testimonial-slider navi_pagi_top_right slider-3-grid owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
+
+          <!-- Testimonial Item 1 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">Working with The MayBach Homes Property Group team was a seamless experience. Their attention to detail, transparency, and consistent updates made the process comfortable and stress-free. I highly recommend their services!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Sophia</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 2 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">The service was great, and they understood my property requirements well. I would have appreciated quicker turnaround times on the documentation, but overall, a very positive experience.</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Ankit</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 3 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">From property search to finalizing the deal, the entire process felt effortless. The professionalism and knowledge of the market really set them apart. Thank you for helping me find my dream home!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mrs. Laila</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 4 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">I found a wonderful rental property thanks to their support. The team was responsive and thoughtful, though I wish the viewing arrangements were more flexible. Still very satisfied!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Rizwan</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 5 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">I am impressed by the level of commitment and expertise shown during my property investment. They offered great insights and ensured all my queries were answered clearly. Would definitely work with them again.</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Harish</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 6 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">Truly a client-first experience. They understood my vision and worked tirelessly to deliver beyond expectations. Very reliable, responsive, and professional – 5 stars all the way!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/female3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Ms. Amelia</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial Item 7 -->
+          <div class="item">
+            <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
+              <div class="testimonial-content">
+                <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
+                <p style="color: #000 !important; margin-top: 10px;">The entire team was very professional and polite. I only wish we had a few more options to choose from, but the property I chose was still a great match for my needs. Thank you!</p>
+                <div class="testimonial-review">
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                  <i class="fa fa-star" style="color: #d4af37 !important;"></i>
+                </div>
+              </div>
+              <div class="thumb d-flex align-items-center mt-3">
+                <div class="flex-shrink-0">
+                  <img src="images/male3.svg" alt="" style="width:50px;" />
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <h6 class="mb-0" style="color: #fff !important;">Mr. Youssef</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End slider -->
+      </div>
+    </div>
+  </div>
+</section>
+
+	<!-- Load jQuery (use only ONE copy) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Load Owl Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $(".testimonial-slider").owlCarousel({
+      loop:true,
+      margin:20,
+      autoplay:true,
+      autoplayTimeout:4000,
+      autoplayHoverPause:true,
+      smartSpeed:800,
+      nav:true,
+      dots:true,
+      responsive:{
+          0:{ items:1 },
+          576:{ items:1 },
+          768:{ items:2 },
+          992:{ items:3 }
+      }
+  });
+});
+</script>
+<style>
+.testimonial-slider .owl-stage { display:flex !important; }
+
+.testimonial-style1 {
+  background:#fff;
+  border:1px solid #e5e5e5;
+  border-radius:15px;
+  padding:25px;
+  min-height:270px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  transition:0.3s;
+}
+
+.testimonial-style1:hover {
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.testimonial-style1 p {
+  color:#f6f6f6;
+  line-height:24px;
+  font-size:15px;
+  margin-bottom:15px;
+}
+
+.testimonial-review {
+  color:#f6c400;
+  font-size:18px;
+}
+
+.thumb img {
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  border:3px solid #f6c400;
+}
+
+.thumb h6 {
+  margin-left:10px;
+  font-weight:600;
+  color:#000;
+}
+
+.item {  }
+</style>
+
+<br><br>
+    <div style="width: 100%; height: 1px; background-color: #000;"></div>
+    <br><br>
+
+
+<section class="pt60 pb50-md" style="background-color: #fff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="main-title">
+          <h2 class="title" style="color: #000;">Latest Blogs</h2>
+          <p style="color: #555;">Stay updated with travel insights, guides, and destination stories.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="blog-slider owl-carousel owl-theme">
+
+          <!-- Blog Item 1 -->
+          <div class="item">
+            <div class="blog-card">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="blog-img" alt="">
+              <h5>Top 10 Must-Visit Places in India</h5>
+              <p>Explore breathtaking destinations from Kashmir to Kerala that define India's beauty.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+
+          <!-- Blog Item 2 -->
+          <div class="item">
+            <div class="blog-card">
+              <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf" class="blog-img" alt="">
+              <h5>How to Plan a Budget-Friendly Trip</h5>
+              <p>Travel smart with expert tips on saving money without compromising experience.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+
+          <!-- Blog Item 3 -->
+          <div class="item">
+            <div class="blog-card">
+              <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" class="blog-img" alt="">
+              <h5>Best Time to Visit Rajasthan</h5>
+              <p>From Jaipur to Jaisalmer — discover perfect seasons, climate, and itinerary tips.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+
+          <!-- Blog Item 4 -->
+          <div class="item">
+            <div class="blog-card">
+              <img src="https://images.unsplash.com/photo-1506806732259-39c2d0268443" class="blog-img" alt="">
+              <h5>Why India is a Cultural Wonderland</h5>
+              <p>Dive into India's festivals, heritage, cuisine, and diverse traditions.</p>
+              <a href="#" class="read-more">Read More →</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.blog-card {
+  background:#fff;
+  border:1px solid #e5e5e5;
+  border-radius:15px;
+  padding:20px;
+  min-height:320px;
+  transition:0.3s;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.blog-card:hover {
+  transform:translateY(-5px);
+  box-shadow:0px 10px 25px rgba(0,0,0,0.1);
+}
+
+.blog-img {
+  width:100%;
+  height:180px;
+  border-radius:12px;
+  object-fit:cover;
+  margin-bottom:15px;
+}
+
+.blog-card h5 {
+  font-size:18px;
+  font-weight:600;
+  color:#000;
+  margin-bottom:10px;
+}
+
+.blog-card p {
+  color:#555;
+  font-size:14px;
+  line-height:22px;
+  margin-bottom:15px;
+}
+
+.blog-card .read-more {
+  font-weight:bold;
+  color:#c71d1d;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.blog-card .read-more:hover {
+  color:#000;
+}
+
+.blog-slider .owl-stage { display:flex !important; }
+.blog-slider .item { padding:10px; }
+
+</style>
+<script>
+$(document).ready(function(){
+  $(".blog-slider").owlCarousel({
+      loop:true,
+      margin:20,
+      autoplay:true,
+      autoplayTimeout:4000,
+      autoplayHoverPause:true,
+      smartSpeed:900,
+      nav:true,
+      dots:true,
+      responsive:{
+          0:{ items:1 },
+          576:{ items:1 },
+          768:{ items:2 },
+          992:{ items:3 }
+      }
+  });
+});
+</script>
+
+
 	
   
 @include('layouts.footer')
@@ -491,7 +762,7 @@
 
 
 	<!--========= Scripts ===========-->
-	<script src="js/jquery-latest.min.js"></script>
+	<!-- <script src="js/jquery-latest.min.js"></script> -->
 	<script src="js/bootstrap.js"></script>
 	<script src="js/custom.js"></script> 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

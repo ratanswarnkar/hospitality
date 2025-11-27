@@ -76,9 +76,7 @@
 				<div class="ed-mob-menu-con">
 					<div class="ed-mm-left">
 						<div class="wed-logo">
-							<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india" class="img-responsive"
-								/>
-							</a>
+							<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india" class="img-responsive"></a>
 						</div>
 					</div>
 					<div class="ed-mm-right ">
@@ -86,26 +84,26 @@
 							<span  class="ed-micon"><i class="fa fa-bars"></i></span>
 							<div class="ed-mm-inn" >
 								<a href="#" class="ed-mi-close"><i class="fa fa-times"></i></a>
-								<h4 data-toggle="collapse" data-target="#products" class="collapsed active"><a href="tour-packages-india">Themes</a><span class="arrow"></span></h4>
+								<h4 data-toggle="collapse" data-target="#products" class="collapsed active"><a href="{{ asset('/themes')}}">Themes</a><span class="arrow"></span></h4>
 								<ul class="sub-menu collapse" id="products">
-									<li><a href="tour-packages-india/adventure-tours.html">Adventure Tours</a></li>
-									<li><a href="tour-packages-india/yoga-ayurveda-tour.html">Ayurveda & Yoga Tours</a></li>
-									<li><a href="tour-packages-india/beach-vacations-tours.html">Beach Tours</a></li>
-									<li><a href="tour-packages-india/kerala-backwaters-tour.html">Kerala Backwater Tours</a></li>
-									<li><a href="tour-packages-india/buddhist-tours.html">Buddhist Tours</a></li>
-									<li><a href="tour-packages-india/heritage-tours.html">Culture & Heritage Tours</a></li>
-									<li><a href="tour-packages-india/family-vacation-tours.html">Family vacations Tours</a></li>
-									<li><a href="tour-packages-india/golden-triangle-tour.html">Golden Triangle Tours</a></li>
-									<li><a href="tour-packages-india/hill-station-tours.html">Hill Station Tours</a></li>
-									<li><a href="trips-to-india/himachal-tour.html">Himachal Tours</a></li>
-									<li><a href="tour-packages-india/honeymoon-tours.html">Honeymoon Tours</a></li>
-									<li><a href="tour-packages-india/luxury-train-tour.html">Luxury Train Tours</a></li>
-									<li><a href="tour-packages-india/north-east-india-tours.html">North East India Tours</a></li>
-									<li><a href="tour-packages-india/pilgrimage-tours.html">Pilgrimage Tours</a></li>
+										<li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li>
+																<li><a href="{{ asset('/ayurveda')}}">Ayurveda & Yoga Tours</a></li>
+																<li><a href="{{ asset('/beachs')}}">Beach Tours</a></li>
+																<li><a href="{{ asset('/kerala')}}">kerala Backwater Tours</a></li>
+																<li><a href="{{ asset('/buddhista')}}">Buddhist Tours</a></li>
+																<li><a href="{{ asset('/cultures')}}">Culture & Heritage Tours</a></li>
+																<li><a href="{{ asset('/family')}}">Family vacations Tours</a></li>
+																<li><a href="{{ asset('/golden')}}">Golden Triangle Tours</a></li>
+																<li><a href="{{ asset('/hill')}}">Hill Station Tours</a></li>
+								                                <li><a href="{{ asset('/himachal')}}">Himachal Tours</a></li>
+																<li><a href="{{ asset('/honeymoon')}}">Honeymoon Tours</a></li>
+																<li><a href="{{ asset('/luxury')}}">Luxury Train Tours</a></li>
+																<li><a href="{{ asset('/north')}}">North East India Tours</a></li>
+																<li><a href="{{ asset('/pighal')}}">Pilgrimage Tours</a></li>
 
-									<li><a href="tour-packages-india/wildlife-tours.html">Wildlife Tours</a></li>
+																<li><a href="{{ asset('/wildlife')}}">Wildlife Tours</a></li>
 								</ul>
-								<h4 data-toggle="collapse" data-target="#service" class="collapsed active"><a href="trips-to-india">India Destinations</a><span class="arrow"></span></h4>
+								<!-- <h4 data-toggle="collapse" data-target="#service" class="collapsed active"><a href="trips-to-india">India Destinations</a><span class="arrow"></span></h4>
 								<ul class="sub-menu collapse" id="service" >
 									<li><a href="trips-to-india/rajasthan-tour.html">Rajasthan</a></li>
 									<li><a href="trips-to-india/goa.html">Goa</a></li>
@@ -150,19 +148,19 @@
 									 <li><a href="trips-to-india/nagaland-tours.html">Nagaland</a></li>
 									
 									
-								</ul>
-								<h4 data-toggle="collapse" data-target="#service1" class="collapsed active"><a href="india-special-tour">Special Tours</a><span class="arrow"></span></h4>
+								</ul> -->
+								<h4 data-toggle="collapse" data-target="#service1" class="collapsed active"><a href="{{ asset('/special-tours')}}">Special Tours</a><span class="arrow"></span></h4>
 								<ul class="sub-menu collapse" id="service1">
-									<li><a href="india-special-tour/bicycle-tours.html">Bicycle Tours</a></li>
-									<li><a href="india-special-tour/wine-tours.html">Wine Tours</a></li>
-									<li><a href="india-special-tour/haunted-tours-india.html">Haunted tours India</a></li>
-									<li><a href="india-special-tour/slum-tours.html">Slum Tours</a></li>
-									<li><a href="india-special-tour/bollywood-tours.html">Bollywood Tours</a></li>
+									<li><a href="{{ asset('/bicycle-tours')}}">Bicycle Tours</a></li>
+									<li><a href="{{ asset('/wine-tours')}}">Wine Tours</a></li>
+									<li><a href="{{ asset('/haunted-tours')}}">Haunted tours India</a></li>
+									<li><a href="{{ asset('/slum-tours')}}">Slum Tours</a></li>
+									<li><a href="{{ asset('/bollywood-tours')}}">Bollywood Tours</a></li>
 
 								</ul>
 
 								
-								<h4 data-toggle="collapse" data-target="#service2" class="collapsed active" class="ed-dr-men-mar-top"><a href="tour-by-region">Tour By Region</a><span class="arrow"></span></h4>
+								<!-- <h4 data-toggle="collapse" data-target="#service2" class="collapsed active" class="ed-dr-men-mar-top"><a href="tour-by-region">Tour By Region</a><span class="arrow"></span></h4>
 								<ul class="sub-menu collapse" id="service2">
 
 									<li><a href="tour-by-region/north-india-tours.html">North India Tours </a></li>
@@ -173,9 +171,9 @@
 									
 
 									
-								</ul>
+								</ul> -->
 								
-								<h4 data-toggle="collapse" data-target="#service3" class="collapsed active" class="ed-dr-men-mar-top"><a href="tour-by-region">Asia Tours</a><span class="arrow"></span></h4>
+								<!-- <h4 data-toggle="collapse" data-target="#service3" class="collapsed active" class="ed-dr-men-mar-top"><a href="tour-by-region">Asia Tours</a><span class="arrow"></span></h4>
                                 <ul class="sub-menu collapse" id="service3">
 								    
 									<li><a href="asia-tours/nepal-tours.html">Nepal</a></li>
@@ -184,12 +182,17 @@
 									<li><a href="asia-tours/maldives-tours.html">Maldives</a></li>
 									<li><a href="asia-tours/tibet-tours.html">Tibet</a></li>
 								
-								</ul>
+								</ul> -->
 								
-								<h4><a href="fair-festivals">Fair & Festival</a></h4>
+								<h4><a href="{{ asset('/about')}}">About Us</a></h4>
+								<h4><a href="{{ asset('/directors')}}">Directors</a></h4>
 
-								<h4><a href="hot-deals">Hot Deals</a></span></h4>
-								<h4><a href="blog">Blog</a></span></h4>
+								<h4><a href="{{ asset('/fair-festival')}}">Fair & Festival</a></h4>
+								
+
+								<h4><a href="{{ asset('/hot-deals')}}">Hot Deals</a></span></h4>
+								<h4><a href="{{ asset('/enquiry')}}">Contact Us</a></span></h4>
+								<h4><a href="{{ asset('/blogs')}}">Blog</a></span></h4>
                                
 							</div>
 						</div>
@@ -311,9 +314,9 @@
 												</div>
 											</div>
 										</li>
-										<li class="about-menu">
+										<!-- <li class="about-menu">
 											<a href="trips-to-india" class="mm-arr">India Destinations  <i></i></a>
-											<!-- MEGA MENU 1 -->
+											
 											<div class="mm-pos">
 												<div class="about-mm m-menu">
 													<div class="m-menu-inn">
@@ -382,21 +385,21 @@
 													</div>
 												</div>
 											</div>
-										</li>
+										</li> -->
 
 										<li class="special-menu">
-											<a href="india-special-tour" class="mm-arr">Special Tours  <i></i></a>
+											<a href="{{ asset('/special-tours')}}" class="mm-arr">Special Tours  <i></i></a>
 											<!-- MEGA MENU 1 -->
 											<div class="mm-pos1">
 												<div class="special-mm sm-menu">
 													<div class="m-menu-inn">
 														<div class="mm1-com mm1-s3s">
 															<ul>
-																<li><a href="india-special-tour/bicycle-tours.html">Bicycle Tours</a></li>
-																<li><a href="india-special-tour/wine-tours.html">Wine Tours</a></li>
-																<li><a href="india-special-tour/haunted-tours-india.html">Haunted tours India</a></li>
-																<li><a href="india-special-tour/slum-tours.html">Slum Tours</a></li>
-																<li><a href="india-special-tour/bollywood-tours.html">Bollywood Tours</a></li>
+																<li><a href="{{ asset('/bicycle-tours')}}">Bicycle Tours</a></li>
+																<li><a href="{{ asset('/wine-tours')}}">Wine Tours</a></li>
+																<li><a href="{{ asset('/haunted-tours')}}">Haunted tours India</a></li>
+																<li><a href="{{ asset('/slum-tours')}}">Slum Tours</a></li>
+																<li><a href="{{ asset('/bollywood-tours')}}">Bollywood Tours</a></li>
 
 															</ul>
 														</div>
@@ -407,7 +410,7 @@
 										</li>
 
 										
-										<li class="region-menu"><a href="tour-by-region">Tour By Region  <i></i></a>
+										<!-- <li class="region-menu"><a href="tour-by-region">Tour By Region  <i></i></a>
 											<div class="mm-pos1">
 												<div class="region-tour-mm sm-menu">
 													<div class="m-menu-inn">
@@ -424,9 +427,9 @@
 													</div>
 												</div>
 											</div>
-										</li>
+										</li> -->
 										
-										<li class="asia-menu"><a href="asia-tours">Asia Tours <i></i></a>
+										<!-- <li class="asia-menu"><a href="asia-tours">Asia Tours <i></i></a>
 											<div class="mm-pos1">
 												<div class="asia-tours-mm sm-menu">
 													<div class="m-menu-inn">
@@ -443,19 +446,29 @@
 													</div>
 												</div>
 											</div>
+										</li> -->
+										<li class="festival-menu"><a href="{{ asset('/about')}}">About Us</a>
+
+										</li>
+										<li class="festival-menu"><a href="{{ asset('/directors')}}">Directors</a>
+
 										</li>
 
-										<li class="festival-menu"><a href="fair-festivals">Fair & Festival</a>
+										<li class="festival-menu"><a href="{{ asset('/fair-festival')}}">Fair & Festival</a>
 
 										</li>
 										<li class="admi-menu">
-											<a href="hot-deals" class="mm-arr">Hot Deals</a>
+											<a href="{{ asset('/hot-deals')}}" class="mm-arr">Hot Deals</a>
 											<!-- MEGA MENU 1 -->
 
 										</li>
 										
 										<li class="blog-menu">
-											<a href="blog" class="mm-arr">Blog</a>
+											<a href="{{ asset('/enquiry')}}" class="mm-arr">Contact Us</a>
+										
+										</li>
+											<li class="blog-menu">
+											<a href="{{ asset('/blogs')}}" class="mm-arr">Blog</a>
 										
 										</li>
 								</ul>
@@ -467,3 +480,30 @@
 
 		</section>
 		<!--END HEADER SECTION-->
+
+		<a href="https://wa.me/919810890465" class="whatsapp_float" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" class="whatsapp_icon">
+</a>
+
+<style>
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+.whatsapp_icon {
+    width: 60px;
+    height: 60px;
+}
+.whatsapp_float:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+</style>

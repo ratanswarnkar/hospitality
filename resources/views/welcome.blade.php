@@ -7,42 +7,41 @@
   top: 63%;
   left: 22%;
   transform: translate(-50%, -50%);
-  text-align: center;
-  width: max-content;
-  min-width: 280px;
+  text-align: left;
+  width: auto;
+  max-width: 280px; /* ensures it never grows too wide */
 }
 
 /* Glass effect box */
 .glass-box {
-  padding: 25px 40px;
+  padding: 20px 30px;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.15); /* transparent white */
-  backdrop-filter: blur(10px); /* main blur effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.3);
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
-  animation: fadein 1.2s ease-out;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
-/* Text */
+/* Heading */
 .glass-box h2 {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   text-shadow: 0px 3px 10px rgba(0,0,0,0.4);
+  line-height: 1.2;
 }
 
 /* Button */
 .banner-btn {
   display: inline-block;
-  padding: 12px 25px;
+  padding: 12px 22px;
   font-size: 18px;
   border-radius: 50px;
   background: #d31010;
-  color: white;
-  text-decoration: none;
+  color: #fff;
   font-weight: 600;
-  transition: 0.3s;
+  text-decoration: none;
 }
 
 .banner-btn:hover {
@@ -50,31 +49,53 @@
   transform: scale(1.05);
 }
 
-/* Fade-in animation */
-@keyframes fadein {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -60%);
+/* ---------- RESPONSIVE FIX ---------- */
+
+/* Tablets */
+@media(max-width:1024px){
+  .banner-caption {
+    left: 26%;
+    top: 65%;
+    max-width: 240px;
   }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
+  .glass-box h2 { font-size: 30px; }
 }
 
-/* Mobile Responsive */
+/* Mobile */
 @media(max-width:768px){
-  .glass-box {
-    padding: 15px 25px;
+  .banner-caption {
+    left: 28%;
+    top: 68%;
+    max-width: 210px;
   }
-  .glass-box h2 {
-    font-size: 24px;
-  }
-  .banner-btn {
-    padding: 10px 18px;
-    font-size: 16px;
-  }
+  .glass-box { padding: 15px 20px; }
+  .glass-box h2 { font-size: 24px; }
+  .banner-btn { font-size: 15px; padding: 8px 16px; }
 }
+
+/* Small Mobile */
+@media(max-width:480px){
+  .banner-caption {
+    left: 30%;
+    top: 70%;
+    max-width: 180px;
+  }
+  .glass-box { padding: 1px 20px; }
+  .glass-box h2 { font-size: 10px; }
+  .banner-btn { font-size: 14px; padding: 7px 14px; }
+}
+
+/* Very Small Phones */
+@media(max-width:360px){
+  .banner-caption {
+    max-width: 160px;
+    left: 32%;
+  }
+  .glass-box h2 { font-size: 18px; }
+  .banner-btn { font-size: 13px; padding: 6px 12px; }
+}
+
+
 
 
 </style>
@@ -359,7 +380,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">Working with The MayBach Homes Property Group team was a seamless experience. Their attention to detail, transparency, and consistent updates made the process comfortable and stress-free. I highly recommend their services!</p>
+                <p style="color: #000 !important; margin-top: 10px;">Visiting this art gallery was an inspiring experience. The curation, ambiance, and attention to artistic detail were exceptional. The staff was welcoming and knowledgeable. I highly recommend visiting this gallery!</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -384,7 +405,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">The service was great, and they understood my property requirements well. I would have appreciated quicker turnaround times on the documentation, but overall, a very positive experience.</p>
+                <p style="color: #000 !important; margin-top: 10px;">The gallery experience was excellent, and they really understood my artistic preferences. I would have appreciated slightly quicker responses regarding artwork details, but overall, it was a wonderful visit.</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -408,7 +429,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">From property search to finalizing the deal, the entire process felt effortless. The professionalism and knowledge of the market really set them apart. Thank you for helping me find my dream home!</p>
+                <p style="color: #000 !important; margin-top: 10px;">From exploring the collections to selecting the perfect piece, the entire experience felt effortless. The expertise and passion for art truly stood out. Thank you for helping me find artwork I love!</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -433,7 +454,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">I found a wonderful rental property thanks to their support. The team was responsive and thoughtful, though I wish the viewing arrangements were more flexible. Still very satisfied!</p>
+                <p style="color: #000 !important; margin-top: 10px;">I discovered a beautiful artwork thanks to their assistance. The team was helpful and attentive, though I wish appointment timings were a bit more flexible. Still, I’m very satisfied!</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -457,7 +478,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">I am impressed by the level of commitment and expertise shown during my property investment. They offered great insights and ensured all my queries were answered clearly. Would definitely work with them again.</p>
+                <p style="color: #000 !important; margin-top: 10px;">I am impressed by the level of passion and expertise shown during my art purchase. They provided valuable insights and answered all my questions clearly. I would gladly visit again.</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -482,7 +503,7 @@
             <div class="testimonial-style1 position-relative" style="background-color: #f6f6f6 !important; padding: 25px; border-radius: 10px; color: #fff !important;">
               <div class="testimonial-content">
                 <!-- <span class="icon fa fa-quote-left" style="color: #d4af37 !important; font-size: 22px;"></span> -->
-                <p style="color: #000 !important; margin-top: 10px;">Truly a client-first experience. They understood my vision and worked tirelessly to deliver beyond expectations. Very reliable, responsive, and professional – 5 stars all the way!</p>
+                <p style="color: #000 !important; margin-top: 10px;">Truly a visitor-first experience. They understood my artistic taste and went above and beyond with thoughtful guidance. Very professional, responsive, and knowledgeable — a full 5-star experience!</p>
                 <div class="testimonial-review">
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
                   <i class="fa fa-star" style="color: #d4af37 !important;"></i>
@@ -634,7 +655,7 @@ $(document).ready(function(){
               <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="blog-img" alt="">
               <h5>Top 10 Must-Visit Places in India</h5>
               <p>Explore breathtaking destinations from Kashmir to Kerala that define India's beauty.</p>
-              <a href="#" class="read-more">Read More →</a>
+              <a href="{{ asset('/blog1') }}" class="read-more">Read More →</a>
             </div>
           </div>
 
@@ -644,7 +665,7 @@ $(document).ready(function(){
               <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf" class="blog-img" alt="">
               <h5>How to Plan a Budget-Friendly Trip</h5>
               <p>Travel smart with expert tips on saving money without compromising experience.</p>
-              <a href="#" class="read-more">Read More →</a>
+              <a href="{{ asset('/blog2') }}" class="read-more">Read More →</a>
             </div>
           </div>
 
@@ -654,7 +675,7 @@ $(document).ready(function(){
               <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" class="blog-img" alt="">
               <h5>Best Time to Visit Rajasthan</h5>
               <p>From Jaipur to Jaisalmer — discover perfect seasons, climate, and itinerary tips.</p>
-              <a href="#" class="read-more">Read More →</a>
+              <a href="{{ asset('/blog3') }}" class="read-more">Read More →</a>
             </div>
           </div>
 
@@ -664,7 +685,7 @@ $(document).ready(function(){
               <img src="https://images.unsplash.com/photo-1506806732259-39c2d0268443" class="blog-img" alt="">
               <h5>Why India is a Cultural Wonderland</h5>
               <p>Dive into India's festivals, heritage, cuisine, and diverse traditions.</p>
-              <a href="#" class="read-more">Read More →</a>
+              <a href="{{ asset('/blog4') }}" class="read-more">Read More →</a>
             </div>
           </div>
 

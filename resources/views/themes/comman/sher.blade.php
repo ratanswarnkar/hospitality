@@ -323,7 +323,7 @@
                                     <div class="extrainfo">
 
 
-                                        <h4>Tour Cost: USD 1199 Per Person
+                                        <h4>Price on Request</h4>
                                             <h4>
                                                 <p>(Cost based on minimum 2 person travelling together)</p>
 

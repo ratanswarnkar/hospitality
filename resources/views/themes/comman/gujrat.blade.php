@@ -114,7 +114,7 @@
                                         <!--Destinations covered-->
                                         <p><i class="fa fa-globe" aria-hidden="true"></i> <strong>Destination Covered :</strong> Ahmedabad - Jamnagar - Dwarka - Porbandar - Somnath - Diu - Sasangir - Rajkot - Ahmedabad
                                         </p>
-                                        <p class="price-tag"><img src="../images/price-tag.png"> <strong>USD 849 Per Person</strong></p>
+                                        <p class="price-tag"><img src="../images/price-tag.png"> <strong>Price on Request</strong></p>
                                         <p class="srch-icn"><strong>Includes</strong> : <i class="fa fa-plane inactive" aria-hidden="true" title="Air Fare"></i> <i class="fa fa-bed active" aria-hidden="true" title="Hotel"></i> <i class="fa fa-coffee active" aria-hidden="true"
                                                 title="Breakfast"></i> <i class="fa fa-taxi active" aria-hidden="true" title="Transport"></i> <i class="fa fa-bank inactive" aria-hidden="true" title="Monuments Fee"></i> <i class="fa fa-cutlery inactive" aria-hidden="true"
                                                 title="Dinner/Lunch"></i> </p>

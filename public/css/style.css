@@ -11479,7 +11479,7 @@ img.gdimg {
 
 @media only screen and (max-width: 767px) {
     .home-about {
-        display: none;
+        
     }
 }
 
@@ -11566,10 +11566,10 @@ img.gdimg {
 
 @media only screen and (max-width: 767px) {
     .home-content {
-        display: none;
+        
     }
     .tour-heading {
-        display: none;
+        
     }
     .client-speak {
         padding-top: 0px !imortant;

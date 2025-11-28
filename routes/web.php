@@ -42,7 +42,18 @@ Route::get('/directors',[AyodhyaController::class, 'director']);
 Route::get('/sher',[AyodhyaController::class, 'she']);
 Route::get('/gujrat-tour',[AyodhyaController::class, 'gujrat']);
 Route::get('/golden-triangle-varanasi',[AyodhyaController::class, 'goldenVaranasi']);
+Route::get('/mumbai-ajanta-ellora-cave-tour',[AyodhyaController::class, 'mumbaiAjantaEllora']);
+Route::get('/discover-karnataka-tour',[AyodhyaController::class, 'discoverKarnataka']); 
+Route::get('/haridwar-rishikesh-tour',[AyodhyaController::class, 'haridwarRishikesh']);
+
+
 
 Route::get('/blogs',[AyodhyaController::class, 'blo']);
+Route::get('/blog1',[AyodhyaController::class, 'blog1']);
+Route::get('/blog2',[AyodhyaController::class, 'blog2']);
+Route::get('/blog3',[AyodhyaController::class, 'blog3']);
+Route::get('/blog4',[AyodhyaController::class, 'blog4']);
+Route::get('/blog5',[AyodhyaController::class, 'blog5']);
+Route::get('/blog6',[AyodhyaController::class, 'blog6']);
 
 

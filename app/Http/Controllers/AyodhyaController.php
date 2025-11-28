@@ -120,6 +120,36 @@ public function blo(){
     return view('blog');
 }
 
+public function blog1(){
+    return view('blogs.blog1');
+}
+public function blog2(){
+    return view('blogs.blog2');
+}
+
+public function blog3(){
+    return view('blogs.blog3');
+}
+public function blog4(){
+    return view('blogs.blog4');
+}            
+public function blog5(){
+    return view('blogs.blog5');
+}
+
+public function blog6(){
+    return view('blogs.blog6');
+}
+
+public function mumbaiAjantaEllora(){
+    return view('themes.comman.mumbai-ajanta-ellora-cave-tour');
+}
+public function discoverKarnataka(){
+    return view('themes.comman.discover-karnataka-tour');
+}
+public function haridwarRishikesh(){
+    return view('themes.comman.haridwar-rishikesh-with-golden-triangle-tour');
+}
 
 
 

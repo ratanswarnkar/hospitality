@@ -97,7 +97,7 @@
           <div class="blog-content">
             <h4>Top 10 Must-Visit Places in India</h4>
             <p>Explore breathtaking destinations from Kashmir to Kerala that define India's beauty.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog1') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
           <div class="blog-content">
             <h4>How to Plan a Budget-Friendly Trip</h4>
             <p>Travel smart with expert tips on saving money without compromising comfort.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog2') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
           <div class="blog-content">
             <h4>Why India is a Cultural Wonderland</h4>
             <p>Dive into India's festivals, heritage, cuisine, and diverse traditions.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog4') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@
           <div class="blog-content">
             <h4>10 Travel Mistakes to Avoid</h4>
             <p>Learn how to travel smarter, safer, and stress-free with expert advice.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog5') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@
           <div class="blog-content">
             <h4>Best Time to Visit Rajasthan</h4>
             <p>From Jaipur to Jaisalmer — discover perfect seasons, climate, and itinerary tips.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog3') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
           <div class="blog-content">
             <h4>Luxury Travel Tips</h4>
             <p>From premium hotels to elite experiences — learn how to travel with luxury.</p>
-            <a href="#" class="read-more-btn">Read More</a>
+            <a href="{{ asset('blog6') }}" class="read-more-btn">Read More</a>
           </div>
         </div>
       </div>

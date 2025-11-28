@@ -22,27 +22,28 @@
 							<div class="col-sm-6 col-md-3 foot-spec foot-com">
 								<h4><span>India Tour Packages </span> </h4>
 								<ul class="two-columns">
-									<li> <a href="tour-packages-india/golden-triangle-tour.html">Golden Triangle Tour </a>										</li>
-									<li> <a href="trips-to-india/rajasthan-tour.html">Rajasthan Tour India</a>									<li> <a href="tour-packages-india/buddhist-tours.html">Buddhist Tour India</a>										</li>
-									<li> <a href="trips-to-india/kerala-tour.html">Kerala Tour India</a>										</li>
-									<li> <a href="tour-packages-india/luxury-train-tour.html">Luxury Train Tours </a>										</li>
-									<li> <a href="tour-by-region/south-india-tours.html">South India Tours</a>										</li>
-									<li> <a href="tour-packages-india/beach-vacations-tours.html">Beach Tour India</a>										</li>
-										</li>
+									<li> <a href="{{ asset('/golden') }}">Golden Triangle Tour </a></li>
+									<li> <a href="{{ asset('/ayurveda') }}">Ayurveda & Yoga Tours</a></li>
+									<li> <a href="{{ asset('/buddhista') }}">Buddhist Tour India</a></li>
+									<li> <a href="{{ asset('/kerala') }}">Kerala Tour India</a></li>
+									<li> <a href="{{ asset('/luxury') }}">Luxury Train Tours </a></li>
+									<li> <a href="{{ asset('/hill') }}">Hill Station Tours</a></li>
+									<li> <a href="{{ asset('/beachs') }}">Beach Tour India</a></li>
+										
                                    
 								</ul>
 							</div>							
 								<div class="col-sm-6 col-md-3 foot-spec foot-com">
 								<h4><span>Main Sections</span> </h4>
 								<ul class="two-columns">
-									<li> <a href="services.html">Services</a>										</li>
-									<li> <a href="contact-us.html">Contact Us</a>										</li>
-									<li> <a href="gallery">Gallery </a> </li>
+									<li> <a href="{{ asset('/hot-deals') }}">Services</a></li>
+									<li> <a href="{{ asset('/enquiry') }}">Contact Us</a></li>
+									<li> <a href="{{ asset('/fair-festival') }}">Gallery </a> </li>
 									
-									<li> <a href="testimonials">Testimonial</a>										</li>
-									<li> <a href="sitemap.html">Sitemap</a>										</li>
-									<li> <a href="career.html">B2B Career</a>	
-                                    <li> <a href="http://b2bconferencesindia.com/">B2B Conferences</a>										</li>
+									<li> <a href="#">Testimonial</a></li>
+									<li> <a href="#">Sitemap</a></li>
+									<li> <a href="#">Career</a></li>
+                                    <li> <a href="#">Conferences</a></li>
 								</ul>
 							</div>
 
@@ -51,14 +52,14 @@
 							<div class="col-sm-6 col-md-2 foot-spec foot-com">
 								<h4><span>More Info </span> </h4>
 								<ul class="two-columns">
-									<li> <a href="about.html">About Us</a>										</li>
+									<li> <a href="{{ asset('/about') }}">About Us</a></li>
 									
-                                    <li> <a href="privacy-policy.html">Privacy Policy</a>										</li>
-									<li> <a href="news.html">News & Events</a>										</li>
-																		</li>
-																		<li> <a href="disclaimer-policy.html">Disclaimer Policy</a>										</li>
-									<li> <a href="terms-conditions.html">Terms & Conditions</a>										</li>
-									<li> <a href="brochure.html">Brochure</a></li>
+                                    <li> <a href="#">Privacy Policy</a></li>
+									<li> <a href="#">News & Events</a></li>
+																		
+									<li> <a href="#">Disclaimer Policy</a></li>
+									<li> <a href="#">Terms & Conditions</a></li>
+									<li> <a href="#">Brochure</a></li>
 									
 
 								</ul>

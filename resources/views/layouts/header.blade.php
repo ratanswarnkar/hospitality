@@ -86,7 +86,7 @@
 								<a href="#" class="ed-mi-close"><i class="fa fa-times"></i></a>
 								<h4 data-toggle="collapse" data-target="#products" class="collapsed active"><a href="{{ asset('/themes')}}">Themes</a><span class="arrow"></span></h4>
 								<ul class="sub-menu collapse" id="products">
-										<li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li>
+										<!-- <li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li> -->
 																<li><a href="{{ asset('/ayurveda')}}">Ayurveda & Yoga Tours</a></li>
 																<li><a href="{{ asset('/beachs')}}">Beach Tours</a></li>
 																<li><a href="{{ asset('/kerala')}}">kerala Backwater Tours</a></li>
@@ -214,7 +214,7 @@
 							</div>
 						</div>
 						<div class="col-xl-2 col col-lg-2 col-md-3 col-xs-12 col-sm-12">
-							<a href="https://www.tripadvisor.in/Attraction_Review-g304551-d14052340-Reviews-B2B_Hospitality_Pvt_Ltd-New_Delhi_National_Capital_Territory_of_Delhi.html"
+							<a href="#"
 							target="_blank"><img src="images/trip.png" alt="b2b hospitality trip-advisor"
 								class="trip-advisor img-responsive"></a>
 						</div>
@@ -285,7 +285,7 @@
 														<div class="theme-mm-com mm-s1">
 															<ul class="sub-menu">
 
-																<li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li>
+																<!-- <li><a href="{{ asset('/adventure')}}">Adventure Tours</a></li> -->
 																<li><a href="{{ asset('/ayurveda')}}">Ayurveda & Yoga Tours</a></li>
 																<li><a href="{{ asset('/beachs')}}">Beach Tours</a></li>
 																<li><a href="{{ asset('/kerala')}}">kerala Backwater Tours</a></li>

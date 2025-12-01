@@ -70,7 +70,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/amazing-rajasthan-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -83,7 +83,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/amazing-rajasthan-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Amazing Rajasthan tour</h4></a>
@@ -108,7 +108,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/amazing-rajasthan-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/amazing-rajasthan-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -117,7 +117,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('amazing-rajasthan-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -135,7 +135,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/culture-of-north-india-with-nepal-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -148,7 +148,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/culture-of-north-india-with-nepal-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Culture of North India With Nepal Tour</h4></a>
@@ -173,7 +173,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/culture-of-north-india-with-nepal-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/culture-of-north-india-with-nepal-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -182,7 +182,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('culture-of-north-india-with-nepal-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -202,7 +202,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/explore-royal-rajasthan.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -215,7 +215,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/explore-royal-rajasthan.html">
+<a href="#">
 
 <!--package name-->
 <h4>Explore Royal Rajasthan</h4></a>
@@ -240,7 +240,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/explore-royal-rajasthan.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/explore-royal-rajasthan.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -249,7 +249,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('explore-royal-rajasthan'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -273,7 +273,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/exotic-agra-khajuraho-cultural-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -286,7 +286,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/exotic-agra-khajuraho-cultural-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Exotic Agra & Khajuraho Cultural Tour</h4></a>
@@ -311,7 +311,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/exotic-agra-khajuraho-cultural-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/exotic-agra-khajuraho-cultural-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -320,7 +320,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('exotic-agra-khajuraho-cultural-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -340,7 +340,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/rajasthan-rich-heritage-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -353,7 +353,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/rajasthan-rich-heritage-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Rajasthan Rich Heritage Tour</h4></a>
@@ -378,7 +378,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/rajasthan-rich-heritage-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/rajasthan-rich-heritage-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -387,7 +387,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('Rajasthan Rich Heritage Tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -403,7 +403,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 
 
 <!--link of image-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -416,7 +416,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<a href="#">
 
 <!--package name-->
 <h4>Kashmir Tour</h4></a>
@@ -441,7 +441,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -450,7 +450,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('tours-in-kashmir.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -474,9 +474,7 @@ Furthermore, the classiness of engraved temples in Gujarat will win your heart g
 @include('themes.comman.index')
 	
 @include('layouts.footer')
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

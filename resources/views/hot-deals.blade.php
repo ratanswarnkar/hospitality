@@ -68,7 +68,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/one-day-agra-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -81,7 +81,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/one-day-agra-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>One Day Agra Tour</h4>
@@ -99,7 +99,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 35 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -107,7 +107,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/one-day-agra-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/one-day-agra-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -117,7 +117,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('one-day-agra-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -136,7 +136,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/special-offer-golden-triangle-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -149,7 +149,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/special-offer-golden-triangle-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Special Offer Golden Triangle Tour</h4>
@@ -167,7 +167,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 139 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -175,7 +175,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/special-offer-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/special-offer-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -185,7 +185,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('special-offer-golden-triangle-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -203,14 +203,14 @@
                                             <div class="col-md-12 col-sm-6 col-xs-12">
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
-                                                        <a href="../trips-to-india/buddha-pilgrimage-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1"> <img src="../images/tourintro/buddha-pilgrimage-tour.jpg" alt=""> </div>
                                                         </a>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="trav-list-bod">
-                                                            <a href="../trips-to-india/buddha-pilgrimage-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
                                                                 <h4>Buddha Pilgrimage Tour </h4>
                                                             </a>
                                                             <p>Varanasi - Sarnath - Varanasi- Bodhgaya - Rajgir -Nalanda - Patna - Vaishali- Kushinagar - Lumbini - Kapilavastu - Sravasti - Lucknow</p>
@@ -220,20 +220,20 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="col-md-12">
-                                                            <p class="price-request"> USD 312 Per Person</p>
+                                                            <p class="price-request"> Price on Request</p>
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="col-md-6 col-sm-6 col-xs-6">
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
-                                                                    <a href="../trips-to-india/buddha-pilgrimage-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">View Details</a> -->
                                                                     </span>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 col-sm-6 col-xs-6">
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
                                                                     <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddha Pilgrimage Tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div>
                                                             </div>
                                                         </div>
@@ -252,7 +252,7 @@
 
 
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/majestical-himachal-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -265,7 +265,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/majestical-himachal-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Majestical Himachal Tour</h4>
@@ -283,7 +283,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 249 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -291,7 +291,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/majestical-himachal-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -301,7 +301,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('majestical-himachal-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div>
@@ -319,14 +319,14 @@
                                             <div class="col-md-12 col-sm-6 col-xs-12">
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
-                                                        <a href="../trips-to-india/golden-triangle-goa-mumbai-beaches-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-goa-mumbai-beaches-tour.jpg" alt="golden-triangle-goa-mumbai-beaches-tour"> </div>
                                                         </a>
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="trav-list-bod">
-                                                            <a href="../trips-to-india/golden-triangle-goa-mumbai-beaches-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
                                                                 <h4>Golden Triangle With Goa & Mumbai beaches Tour</h4>
                                                             </a>
                                                             <p>Mumbai – Jaipur – Agra- Delhi - Goa – Mumbai
@@ -337,20 +337,20 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="col-md-12">
-                                                            <p class="price-request">USD 1099 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="col-md-6 col-sm-6 col-xs-6">
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
-                                                                    <a href="../trips-to-india/golden-triangle-goa-mumbai-beaches-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/golden-triangle-goa-mumbai-beaches-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
                                                                     </span>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 col-sm-6 col-xs-6">
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
                                                                     <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('golden-triangle-goa-mumbai-beaches-tour');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div>
                                                             </div>
                                                         </div>
@@ -368,7 +368,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/goa-beach-with-taj-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -381,7 +381,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/goa-beach-with-taj-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>
@@ -400,7 +400,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 249 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -408,7 +408,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/goa-beach-with-taj-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/goa-beach-with-taj-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -418,7 +418,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('goa-beach-with-taj-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -435,7 +435,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/majestic-kerala-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -448,7 +448,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/majestic-kerala-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>
@@ -467,7 +467,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 349 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -475,7 +475,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/majestic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                  <!-- <a href="../trips-to-india/majestic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -485,7 +485,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('majestic-kerala-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -502,7 +502,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -515,7 +515,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>
@@ -534,7 +534,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 1199 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -542,7 +542,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/tiger-safari-with-taj-mahal-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -552,7 +552,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('tiger-safari-with-taj-mahal-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -569,7 +569,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/amazing-gujarat-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -582,7 +582,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/amazing-gujarat-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Amazing Gujarat Tour</h4>
@@ -600,7 +600,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 849 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -608,7 +608,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/amazing-gujarat-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/amazing-gujarat-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -618,7 +618,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('amazing-gujarat-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -635,7 +635,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/golden-triangle-with-varanasi-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -648,7 +648,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/golden-triangle-with-varanasi-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Golden Triangle with Varanasi Tour</h4>
@@ -666,7 +666,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 429 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -674,7 +674,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/golden-triangle-with-varanasi-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/golden-triangle-with-varanasi-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -684,7 +684,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('golden-triangle-with-varanasi-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -702,7 +702,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -715,7 +715,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Haridwar and Rishikesh with Golden Triangle Tour</h4>
@@ -733,7 +733,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 339 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -741,7 +741,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/haridwar-rishikesh-with-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -751,7 +751,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('haridwar-rishikesh-with-golden-triangle-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -767,7 +767,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -780,7 +780,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Mumbai Aurangabad with Ajanta Ellora Cave</h4>
@@ -798,7 +798,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 379 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -806,7 +806,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                  <!-- <a href="../trips-to-india/mumbai-ajanta-ellora-cave-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -816,7 +816,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('mumbai-ajanta-ellora-cave-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -833,7 +833,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/discover-karnataka-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -846,7 +846,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/discover-karnataka-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Discover Karnataka Tour</h4>
@@ -864,7 +864,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 799 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -872,7 +872,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/discover-karnataka-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/discover-karnataka-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -882,7 +882,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('discover-karnataka-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -899,7 +899,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/kashmir-with-taj-mahal-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -912,7 +912,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/kashmir-with-taj-mahal-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Kashmir With Taj Mahal Tour</h4>
@@ -930,7 +930,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 409 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -938,7 +938,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/kashmir-with-taj-mahal-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/kashmir-with-taj-mahal-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -948,7 +948,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('kashmir-with-taj-mahal-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -967,7 +967,7 @@
                                                 <div class="hot-page2-alp-r-list">
                                                     <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                         <!--link of image-->
-                                                        <a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html">
+                                                        <a href="{{ asset('/enquiry') }}">
 
                                                             <div class="hot-page2-hli-1">
 
@@ -980,7 +980,7 @@
                                                         <div class="trav-list-bod">
 
                                                             <!--package name link-->
-                                                            <a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html">
+                                                            <a href="{{ asset('/enquiry') }}">
 
                                                                 <!--package name-->
                                                                 <h4>Kolkata and Varanasi with Golden Triangle Tour</h4>
@@ -998,7 +998,7 @@
                                                         <div class="col-md-12">
 
                                                             <!--Price of package-->
-                                                            <p class="price-request">USD 539 Per Person</p>
+                                                            <p class="price-request">Price on Request</p>
 
                                                         </div>
                                                         <div class="col-md-12">
@@ -1006,7 +1006,7 @@
                                                                 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                     <!-- detial page link-->
-                                                                    <a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                    <!-- <a href="../trips-to-india/kolkata-varanasi-with-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
                                                                     </span>
                                                                 </div>
@@ -1016,7 +1016,7 @@
                                                                     <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('kolkata-varanasi-with-golden-triangle-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                             </div>
                                                         </div>
@@ -1048,9 +1048,7 @@
 
 
   @include('layouts.footer')
-    <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-        <a href="../enquiry.php" class=""><img src="../images/contact-butt.png"></a>
-    </div>
+ 
     <!--FORM -->
     <script type="text/javascript">
         $(document).ready(function() {

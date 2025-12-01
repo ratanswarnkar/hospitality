@@ -14,7 +14,7 @@
 								<p> Greater Noida-201310, Uttar Pradesh</p>
 								<p>India</p>
 								<p>Mobile No. : + 91 - 99718 55984</p>
-								<p>Telephone No. : + 91 -  9810890465 </p>
+								<p>Telephone No. : + 91 -  9810890565 </p>
 								<p>E-mail :  info@nextwisehospitality.co.in</p>
 								
 							</div>

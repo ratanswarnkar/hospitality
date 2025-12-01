@@ -80,7 +80,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/honeymoon-tour-of-south-india.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -93,7 +93,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/honeymoon-tour-of-south-india.html">
+<a href="#">
 
 <!--package name-->
 <h4>Honeymoon Tour of South India</h4></a>
@@ -118,7 +118,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/honeymoon-tour-of-south-india.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/honeymoon-tour-of-south-india.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -127,7 +127,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('honeymoon-tour-of-south-india'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -150,7 +150,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/sizzling-himachal-tour-from-delhi.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -163,7 +163,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/sizzling-himachal-tour-from-delhi.html">
+<a href="#">
 
 <!--package name-->
 <h4>Sizzling Himachal Tour From Delhi</h4></a>
@@ -188,7 +188,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/sizzling-himachal-tour-from-delhi.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/sizzling-himachal-tour-from-delhi.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -197,7 +197,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('sizzling-himachal-tour-from-delhi'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -221,7 +221,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/romantic-kerala-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -234,7 +234,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/romantic-kerala-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Romantic Kerala Tour</h4></a>
@@ -259,7 +259,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/romantic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/romantic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -268,7 +268,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('romantic-kerala-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -288,7 +288,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/kerala-honeymoon-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -301,7 +301,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/kerala-honeymoon-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Kerala Honeymoon Tour</h4></a>
@@ -326,7 +326,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/kerala-honeymoon-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/kerala-honeymoon-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -335,7 +335,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('kerala-honeymoon-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -356,7 +356,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -369,7 +369,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html">
+<a href="#">
 
 <!--package name-->
 
@@ -395,7 +395,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -404,7 +404,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('darjeeling-gangtok-honeymoon-package'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -420,7 +420,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -433,7 +433,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<a href="#">
 
 <!--package name-->
 <h4>Kashmir Tour</h4></a>
@@ -458,7 +458,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -467,7 +467,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('tours-in-kashmir.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -489,7 +489,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/manipur-tours-package.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -502,7 +502,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/manipur-tours-package.html">
+<a href="#">
 
 <!--package name-->
 
@@ -528,7 +528,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/manipur-tours-package.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/manipur-tours-package.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -537,7 +537,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('manipur-tours-package'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -562,9 +562,7 @@
 	
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

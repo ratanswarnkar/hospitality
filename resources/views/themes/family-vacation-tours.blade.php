@@ -29,7 +29,7 @@
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/kashmir-sonamarg-tour.html">
+<!-- <a href="../trips-to-india/kashmir-sonamarg-tour.html"> -->
 <div class="hot-page2-hli-1">
 <!--image path-->
 <img src="../images/tourintro/kashmir-sonamarg-tour.jpg" alt=""> 
@@ -39,7 +39,7 @@
 <div class="col-md-4">
 <div class="trav-list-bod">
 <!--package name link-->
-<a href="../trips-to-india/kashmir-sonamarg-tour.html">
+<!-- <a href="../trips-to-india/kashmir-sonamarg-tour.html"> -->
 <!--package name-->
 <h4>Kashmir with Sonamarg</h4>
 </a>
@@ -60,7 +60,7 @@ Price On Request
 <div class="col-md-6 col-sm-6 col-xs-6">
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 <!-- detial page link-->
-<a href="../trips-to-india/kashmir-sonamarg-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/kashmir-sonamarg-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 </span>
 </div>
 </div>
@@ -68,7 +68,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 <span class="hot-list-p3-4">
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('kashmir-sonamarg-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span>
 </div>
 </div></div></div>
@@ -84,7 +84,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/tamil-nadu-tour.html">
+<!-- <a href="../trips-to-india/tamil-nadu-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -97,7 +97,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/tamil-nadu-tour.html">
+<!-- <a href="../trips-to-india/tamil-nadu-tour.html"> -->
 
 <!--package name-->
 <h4>Tamilnadu Tour</h4></a>
@@ -122,7 +122,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/tamil-nadu-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/tamil-nadu-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -131,7 +131,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('tamil-nadu-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -145,7 +145,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/karnataka-tour-packages.html">
+<!-- <a href="../trips-to-india/karnataka-tour-packages.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -158,7 +158,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/karnataka-tour-packages.html">
+<!-- <a href="../trips-to-india/karnataka-tour-packages.html"> -->
 
 <!--package name-->
 <h4>Karnataka Tour</h4></a>
@@ -183,7 +183,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/karnataka-tour-packages.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/karnataka-tour-packages.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -192,7 +192,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('karnataka-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -208,7 +208,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/bangalore-nagarhole-tour.html">
+<!-- <a href="../trips-to-india/bangalore-nagarhole-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -221,7 +221,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/bangalore-nagarhole-tour.html">
+<!-- <a href="../trips-to-india/bangalore-nagarhole-tour.html"> -->
 
 <!--package name-->
 <h4>Bangalore Nagarhole Tour</h4></a>
@@ -246,7 +246,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/bangalore-nagarhole-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/bangalore-nagarhole-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -255,7 +255,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('bangalore-nagarhole-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -272,7 +272,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/gujarat-tour-packages.html">
+<!-- <a href="../trips-to-india/gujarat-tour-packages.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -285,7 +285,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/gujarat-tour-packages.html">
+<!-- <a href="../trips-to-india/gujarat-tour-packages.html"> -->
 
 <!--package name-->
 <h4>Gujarat Tour Package</h4></a>
@@ -310,7 +310,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/gujarat-tour-packages.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/gujarat-tour-packages.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -319,7 +319,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('gujarat-tour-packages'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -332,7 +332,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/mumbai-ajanta-caves-tour.html">
+<!-- <a href="../trips-to-india/mumbai-ajanta-caves-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -345,7 +345,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/mumbai-ajanta-caves-tour.html">
+<!-- <a href="../trips-to-india/mumbai-ajanta-caves-tour.html"> -->
 
 <!--package name-->
 <h4>Historical Tour Package</h4></a>
@@ -370,7 +370,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/mumbai-ajanta-caves-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/mumbai-ajanta-caves-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -379,7 +379,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('mumbai-ajanta-caves-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -396,7 +396,7 @@ Price On Request
 
 
 <!--link of image-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<!-- <a href="../trips-to-india/tours-in-kashmir.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -409,7 +409,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/tours-in-kashmir.html">
+<!-- <a href="../trips-to-india/tours-in-kashmir.html"> -->
 
 <!--package name-->
 <h4>Kashmir Tour</h4></a>
@@ -434,7 +434,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/tours-in-kashmir.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -443,7 +443,7 @@ Price On Request
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('tours-in-kashmir.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -461,7 +461,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html">
+<!-- <a href="../trips-to-india/chennai-mahabalipuram-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -474,7 +474,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html">
+<!-- <a href="../trips-to-india/chennai-mahabalipuram-tour.html"> -->
 
 <!--package heading -->
 <h4 class="package-heading common-content">Chennai Mahabalipuram Tour</h4></a>
@@ -500,7 +500,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/chennai-mahabalipuram-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -510,7 +510,7 @@ Price On Request
 
 <!--link of inquire now-->
 
-<a href="#" onclick="doEnquiry('chennai-mahabalipuram-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -530,7 +530,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/delhi-shimla-manali-tour.html">
+<!-- <a href="../trips-to-india/delhi-shimla-manali-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -543,7 +543,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/delhi-shimla-manali-tour.html">
+<!-- <a href="../trips-to-india/delhi-shimla-manali-tour.html"> -->
 
 <!--package heading -->
 <h4 class="package-heading common-content">Chennai Mahabalipuram Tour</h4></a>
@@ -569,7 +569,7 @@ Price On Request
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/delhi-shimla-manali-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/delhi-shimla-manali-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -579,7 +579,7 @@ Price On Request
 
 <!--link of inquire now-->
 
-<a href="#" onclick="doEnquiry('delhi-shimla-manali-tour.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -595,7 +595,7 @@ Price On Request
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/meghalaya-tours.html">
+<!-- <a href="../trips-to-india/meghalaya-tours.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -608,7 +608,7 @@ Price On Request
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/meghalaya-tours.html">
+<!-- <a href="../trips-to-india/meghalaya-tours.html"> -->
 
 <!--package name-->
 <h4>
@@ -634,7 +634,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/meghalaya-tours.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/meghalaya-tours.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -643,7 +643,7 @@ Meghalaya Tour Package</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('meghalaya-tours.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -665,9 +665,7 @@ Meghalaya Tour Package</h4></a>
 																																																																																																																																																																																																																										
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 	<!--FORM -->
 		<script type="text/javascript">
   $(document).ready(function() {

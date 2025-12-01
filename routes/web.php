@@ -27,10 +27,15 @@ Route::get('/wildlife', [AyodhyaController::class, 'wildlif']);
 //special tours routes
 Route::get('/special-tours', [AyodhyaController::class, 'special']);
 Route::get('/bicycle-tours', [AyodhyaController::class, 'bicycle']);
+Route::get('/bicycle-tour-details', [AyodhyaController::class, 'bicycleDetails']);
 Route::get('/wine-tours', [AyodhyaController::class, 'wine']);
+Route::get('/wine-tour-details', [AyodhyaController::class, 'wineDetails']);
 Route::get('/haunted-tours', [AyodhyaController::class, 'haunted']);
+Route::get('/haunted-tours-details', [AyodhyaController::class, 'hauntedDetails']);
 Route::get('/slum-tours', [AyodhyaController::class, 'slum']);
+Route::get('/dharavi-slum-tour-details', [AyodhyaController::class, 'dharaviDetails']);
 Route::get('/bollywood-tours', [AyodhyaController::class, 'bollywood']);
+Route::get('/bollywood-tour-details', [AyodhyaController::class, 'bollywoodDetails']);
 
 Route::get('/fair-festival', [AyodhyaController::class, 'fair']);
 Route::get('/hot-deals', [AyodhyaController::class, 'hot']);

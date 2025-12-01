@@ -45,14 +45,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/delhi-agra-jaipur-tour.html">
+										<!-- <a href="../trips-to-india/delhi-agra-jaipur-tour.html"> -->
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-tour.jpg" alt="golden-triangle-tour"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/delhi-agra-jaipur-tour.html"><h4>Delhi Agra Jaipur Tour</h4></a>
+										<a href="#"><h4>Delhi Agra Jaipur Tour</h4></a>
 										<p>Delhi – Agra – Jaipur – Delhi</p>
 										<p>05 Nights / 06 Days</p>
 										
@@ -66,13 +66,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/delhi-agra-jaipur-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/delhi-agra-jaipur-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('delhi-agra-jaipur-tour');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -86,14 +86,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/golden-triangle-tour-india.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-tour-india.jpg" alt="golden-triangle-tour-india"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/golden-triangle-tour-india.html"><h4>Golden Triangle Tour India</h4></a>
+										<a href="#"><h4>Golden Triangle Tour India</h4></a>
 										<p>Delhi - Jaipur - Agra - Delhi
 </p>
 										<p>03 Nights / 04 Days</p>
@@ -108,13 +108,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/golden-triangle-tour-india.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/golden-triangle-tour-india.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('golden-triangle-tour-india');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -128,14 +128,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/golden-triangle-5-days-tour.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-5-days-tour.jpg" alt="golden-triangle-5-days-tour"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/golden-triangle-5-days-tour.html"><h4>Golden Triangle 5 Days Tour</h4></a>
+										<a href="#"><h4>Golden Triangle 5 Days Tour</h4></a>
 										<p>Delhi - Jaipur - Agra - Delhi
                                         </p>
 										<p>04 Nights / 05 Days</p>
@@ -150,13 +150,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/golden-triangle-5-days-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/golden-triangle-5-days-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('golden-triangle-5-days-tour');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -170,14 +170,14 @@
 							<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/romantic-golden-triangle-tour.html">
+										<a href="#">
 										
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/romantic-golden-triangle-tour.jpg" alt="romantic-golden-triangle-tour"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/romantic-golden-triangle-tour.html"><h4>Romantic Golden Triangle Tour</h4></a>
+										<a href="#"><h4>Romantic Golden Triangle Tour</h4></a>
 										<p>Delhi - Jaipur - Agra - Delhi
                                         </p>
 										<p>05 Nights/ 06 Days</p>
@@ -192,13 +192,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/romantic-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/romantic-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('romantic-golden-triangle-tour');"  class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -213,14 +213,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/delhi-agra-jaipur-udaipur.html">
+										<a href="#">
 										
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/delhi-agra-jaipur-udaipur-delhi.jpg" alt="delhi-agra-jaipur-udaipur-delhi"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/delhi-agra-jaipur-udaipur.html"><h4>Delhi Agra Jaipur Udaipur Tour</h4></a>
+										<a href="#"><h4>Delhi Agra Jaipur Udaipur Tour</h4></a>
 										<p>Delhi - Agra - Jaipur - Udaipur – Delhi
 
                                         </p>
@@ -236,13 +236,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/delhi-agra-jaipur-udaipur.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/delhi-agra-jaipur-udaipur.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('delhi-agra-jaipur-udaipur');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -256,14 +256,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/golden-triangle-tour-with-varanasi.html">
+										<a href="#">
 										
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-tour-with-varanasi.jpg" alt="golden-triangle-tour-with-varanasi"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/golden-triangle-tour-with-varanasi.html"><h4>Golden Triangle Tour With Varanasi</h4></a>
+										<a href="#"><h4>Golden Triangle Tour With Varanasi</h4></a>
 										<p>Delhi – Jaipur – Agra – Delhi – Varanasi
 
 
@@ -280,13 +280,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/golden-triangle-tour-with-varanasi.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/golden-triangle-tour-with-varanasi.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('golden-triangle-tour-with-varanasi');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -301,14 +301,14 @@
 												<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/incredible-golden-triangle-tour.html">
+										<a href="#">
 										
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/incredible-golden-triangle-tour.jpg" alt="golden-triangle-tour-with-varanasi"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/incredible-golden-triangle-tour.html"><h4>Incredible Golden Triangle Tour</h4></a>
+										<a href="#"><h4>Incredible Golden Triangle Tour</h4></a>
 										<p>Delhi – Agra – Jaipur – Delh</p>
 										<p>05 Nights / 06 Days</p>
 										
@@ -322,13 +322,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/incredible-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/incredible-golden-triangle-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('incredible-golden-triangle-tour');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -342,14 +342,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/buddhist-tour-with-golden-triangle.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html"><h4>Buddhist Tour With Golden Triangle</h4></a>
+										<a href="#"><h4>Buddhist Tour With Golden Triangle</h4></a>
 										<p>Delhi - Jaipur - Agra - Patna - Nalanda - Rajgir- Bodhgaya - Varanasi - Kushinagar - Gorakhpur - Lumbini - Balrampur - Lucknow - Delhi</p>
 										<p>13 Nights / 14 Days</p>
 										
@@ -363,13 +363,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/buddhist-tour-with-golden-triangle.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddhist Tour With Golden Triangle'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -383,14 +383,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/golden-triangle-with-kashmir-tour.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/golden-triangle-with-kashmir-tour.jpg" alt="golden-triangle-with-kashmir-tour"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/golden-triangle-with-kashmir-tour.html"><h4>Golden Triangle With Kashmir Tour</h4></a>
+										<a href="#"><h4>Golden Triangle With Kashmir Tour</h4></a>
 										<p>Delhi – Srinagar - Sonmarg - Srinagar – Gulmarg -  Pahalgam – Srinagar - Agra  – Jaipur  - Delhi
 </p>
 										<p>09 Nights / 10 Days</p>
@@ -405,13 +405,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/golden-triangle-with-kashmir-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/golden-triangle-with-kashmir-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('golden-triangle-with-kashmir-tour');" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -428,9 +428,7 @@
 	
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 	<!--FORM -->
 		<script type="text/javascript">
   $(document).ready(function() {

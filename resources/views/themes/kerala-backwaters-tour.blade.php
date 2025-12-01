@@ -83,7 +83,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/kerala-backwaters-package.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -96,7 +96,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/kerala-backwaters-package.html">
+<a href="#">
 
 <!--package name-->
 <h4>Kerala Backwaters Package</h4></a>
@@ -121,7 +121,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/kerala-backwaters-package.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/kerala-backwaters-package.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -130,7 +130,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('kerala-backwaters-package'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -149,7 +149,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/kerala-backwater-tour-kumarakom.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -162,7 +162,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/kerala-backwater-tour-kumarakom.html">
+<a href="#">
 
 <!--package name-->
 <h4>3 Days Kerala Backwaters in Kumarakom</h4></a>
@@ -187,7 +187,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/kerala-backwater-tour-kumarakom.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/kerala-backwater-tour-kumarakom.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -196,7 +196,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('Kerala backwater tour kumarakom'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -216,9 +216,7 @@
 
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

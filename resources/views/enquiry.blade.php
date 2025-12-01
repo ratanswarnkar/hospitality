@@ -1,11 +1,12 @@
 @include('layouts.header')
 
 
-<section id="quote-form" class="container my-5">
-    <h2 class="text-center text-success mb-4">Get a Free Quote</h2>
+<section id="quote-form" class="container my-5" style="padding-top:87px; padding-bottom:87px;">
+    <h2 class="text-center text-success mb-4" >Contact Us</h2>
     <p class="text-center">Fill up the form with all details and we will contact you within 24 hours.</p>
 
-    <form action="https://formspree.io/f/your_form_id" method="POST" class="bg-light p-4 rounded">
+    <form id="contactForm" action="https://formspree.io/f/xldqbkjk" method="POST" class="bg-light p-4 rounded">
+
 
         <p class="text-danger">* Indicates mandatory fields.</p>
 
@@ -83,7 +84,7 @@
         </div>
     </form>
 </section>
-9
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 			 
 @include('layouts.footer')
 
@@ -101,8 +102,42 @@
 	
 	
 	
-</script>
+
 	<!--========= Scripts ===========-->
+  
+<script>
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+    e.preventDefault(); // stop default submission
+
+    const form = e.target;
+
+    // Sending data to Formspree
+    const response = await fetch(form.action, {
+        method: form.method,
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+        Swal.fire({
+            title: "🎉 Thank You!",
+            text: "Your form has been submitted successfully. We will contact you within 24 hours.",
+            icon: "success",
+            confirmButtonColor: "#28a745"
+        });
+
+        form.reset(); // clear form
+    } else {
+        Swal.fire({
+            title: "❌ Error",
+            text: "There was a problem submitting your form. Please try again.",
+            icon: "error",
+            confirmButtonColor: "#d9534f"
+        });
+    }
+});
+</script>
+
 	<script src="js/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/custom.js"></script> 

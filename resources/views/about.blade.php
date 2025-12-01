@@ -5,7 +5,7 @@
         <div class="row align-items-center">
             
             <!-- Image -->
-            <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="col-lg-6 mb-4 mb-lg-0" style="padding-top:50px; padding-bottom:20px;">
                 <img src="images/about-pi.png" class="img-fluid rounded-4 shadow" alt="About Image">
             </div>
 

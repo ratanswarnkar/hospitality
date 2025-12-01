@@ -124,9 +124,7 @@
 
    @include('layouts.footer')
 
-    <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-        <a href="../enquiry.php" class=""><img src="../images/contact-butt.png"></a>
-    </div>
+  
     <!--FORM -->
 
     <!--========= Scripts ===========-->

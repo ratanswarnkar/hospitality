@@ -103,7 +103,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/darjeeling-gangtok-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -116,7 +116,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/darjeeling-gangtok-tour.html">
+<a href="#">
 
 <!--package name-->
 
@@ -143,7 +143,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 <!-- detial page link-->
 
-<a href="../trips-to-india/darjeeling-gangtok-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/darjeeling-gangtok-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 </span></div>
 </div>
 <div class="col-md-6">
@@ -151,7 +151,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('darjeeling-gangtok-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -213,7 +213,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -226,7 +226,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html">
+<a href="#">
 
 <!--package name-->
 
@@ -252,7 +252,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/darjeeling-gangtok-honeymoon-package.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -261,7 +261,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('darjeeling-gangtok-honeymoon-package'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -281,7 +281,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/charismatic-manipur-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -294,7 +294,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/charismatic-manipur-tour.html">
+<a href="#">
 
 <!--package name-->
 
@@ -320,7 +320,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/charismatic-manipur-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/charismatic-manipur-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -329,7 +329,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('charismatic-manipur-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -347,7 +347,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/splenders-of-the-north-east-india.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -360,7 +360,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/splenders-of-the-north-east-india.html">
+<a href="#">
 
 <!--package name-->
 
@@ -386,7 +386,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/splenders-of-the-north-east-india.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/splenders-of-the-north-east-india.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -395,7 +395,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('Splenders Of The North East India'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -415,7 +415,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/nagaland-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -428,7 +428,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/nagaland-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>Nagaland Tour</h4></a>
@@ -453,7 +453,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/nagaland-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/nagaland-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -462,7 +462,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('nagaland-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -481,7 +481,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 
 
 <!--link of image-->
-<a href="../trips-to-india/royal-himachal-tours.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -494,7 +494,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/royal-himachal-tours.html">
+<a href="#">
 
 <!--package name-->
 <h4>Royal Himachal Tour Packages</h4></a>
@@ -519,7 +519,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/royal-himachal-tours.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/royal-himachal-tours.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -528,7 +528,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('royal-himachal-tours.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -548,7 +548,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/meghalaya-tours.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -561,7 +561,7 @@ Some of the fascinating places in Guwahati are Kamakhya Temple, Assam State Zoo,
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/meghalaya-tours.html">
+<a href="#">
 
 <!--package name-->
 <h4>
@@ -587,7 +587,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/meghalaya-tours.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/meghalaya-tours.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -596,7 +596,7 @@ Meghalaya Tour Package</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('meghalaya-tours.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -611,7 +611,7 @@ Meghalaya Tour Package</h4></a>
 
 
 <!--link of image-->
-<a href="../trips-to-india/manipur-tours-package.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -624,7 +624,7 @@ Meghalaya Tour Package</h4></a>
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/manipur-tours-package.html">
+<a href="#">
 
 <!--package name-->
 
@@ -650,7 +650,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/manipur-tours-package.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/manipur-tours-package.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -659,7 +659,7 @@ Meghalaya Tour Package</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('manipur-tours-package'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -680,7 +680,7 @@ Meghalaya Tour Package</h4></a>
 
 
 <!--link of image-->
-<a href="../trips-to-india/11days-north-east-india-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -693,7 +693,7 @@ Meghalaya Tour Package</h4></a>
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/11days-north-east-india-tour.html">
+<a href="#">
 
 <!--package name-->
 <h4>11 Days North East India Tour</h4></a>
@@ -718,7 +718,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/11days-north-east-india-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/11days-north-east-india-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -727,7 +727,7 @@ Meghalaya Tour Package</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="../enquiry.php" onclick="doEnquiry('11days-north-east-india-tour.html'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -741,7 +741,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/4N-5D-manipur-tours.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -754,7 +754,7 @@ Meghalaya Tour Package</h4></a>
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/4N-5D-manipur-tours.html">
+<a href="#">
 
 <!--package name-->
 <h4>
@@ -780,7 +780,7 @@ Meghalaya Tour Package</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/4N-5D-manipur-tours.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/4N-5D-manipur-tours.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -789,7 +789,7 @@ Meghalaya Tour Package</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('4N-5D-manipur-tours'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -814,9 +814,7 @@ Meghalaya Tour Package</h4></a>
 	
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

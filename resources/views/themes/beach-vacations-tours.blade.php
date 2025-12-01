@@ -71,7 +71,7 @@
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 
-<a href="../trips-to-india/goa-beach-tour.html">
+<!-- <a href="../trips-to-india/goa-beach-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -81,7 +81,7 @@
 </div>
 <div class="col-md-4">
 <div class="trav-list-bod">
-<a href="../trips-to-india/goa-beach-tour.html">
+<!-- <a href="../trips-to-india/goa-beach-tour.html"> -->
 <h4>Mesmerizing Beach Tour of Goa </h4></a>
 
 <p>Goa</p>
@@ -98,7 +98,7 @@
 <div class="col-md-6 col-sm-6 col-xs-6">
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
-<a href="../trips-to-india/goa-beach-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/goa-beach-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -106,7 +106,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 <span class="hot-list-p3-4">
 
-<a href="#" onclick="doEnquiry('goa-beach-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -126,7 +126,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/romantic-kerala-tour.html">
+<!-- <a href="../trips-to-india/romantic-kerala-tour.html"> -->
 
 <div class="hot-page2-hli-1">
 
@@ -139,7 +139,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/romantic-kerala-tour.html">
+<!-- <a href="../trips-to-india/romantic-kerala-tour.html"> -->
 
 <!--package name-->
 <h4>Romantic Kerala Tour</h4></a>
@@ -164,7 +164,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/romantic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/romantic-kerala-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -173,7 +173,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('romantic-kerala-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -196,9 +196,7 @@
 		@include('themes.comman.index')
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 	<!--FORM -->
 		<script type="text/javascript">
   $(document).ready(function() {

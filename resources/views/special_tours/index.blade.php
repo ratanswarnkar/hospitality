@@ -24,7 +24,7 @@
                     <!--listing category row-->
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-6">
-                            <a href="slum-tours.html">
+                            <a href="{{ asset('/slum-tours') }}">
                                 <div class="tour-mig-like-com">
                                     <div class="tour-mig-lc-img">
                                         <img src="../images/india-special-tour/slum-tour.jpg" alt="slum-tour">
@@ -36,7 +36,7 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6">
-                            <a href="bicycle-tours.html">
+                            <a href="{{ asset('/bicycle-tours') }}">
                                 <div class="tour-mig-like-com">
                                     <div class="tour-mig-lc-img">
                                         <img src="../images/india-special-tour/bicycle-tour.jpg" alt="bicycle tour">
@@ -48,7 +48,7 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6">
-                            <a href="wine-tours">
+                            <a href="{{ asset('/wine-tours') }}">
                                 <div class="tour-mig-like-com">
                                     <div class="tour-mig-lc-img">
                                         <img src="../images/india-special-tour/wine-tour.jpg" alt="wine tour">
@@ -60,7 +60,7 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6">
-                            <a href="haunted-tours-india.html">
+                            <a href="{{ asset('/haunted-tours') }}">
                                 <div class="tour-mig-like-com">
                                     <div class="tour-mig-lc-img">
                                         <img src="../images/india-special-tour/haunted-tours-india.jpg" alt="haunted tours india">
@@ -76,7 +76,7 @@
                     <!--listing category row-->
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-6">
-                            <a href="bollywood-tours.html">
+                            <a href="{{ asset('/bollywood-tours') }}">
                                 <div class="tour-mig-like-com">
                                     <div class="tour-mig-lc-img">
                                         <img src="../images/india-special-tour/bollywood-tour.jpg" alt="bollywood-tour">
@@ -97,9 +97,7 @@
 
 @include('layouts.footer')
 
-    <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-        <a href="../enquiry.php" class=""><img src="../images/contact-butt.png"></a>
-    </div>
+    
     <!--FORM -->
     <script type="text/javascript">
         $(document).ready(function() {

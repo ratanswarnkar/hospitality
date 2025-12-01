@@ -38,14 +38,14 @@
                                   <div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/ayurveda-in-ananada-spa.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/ayurveda-in-ananda-spa-north-india.jpg" alt="7-days-ayurveda-tour-package"> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/ayurveda-in-ananada-spa.html"><h4>Ayurveda in Ananda Spa - North India </h4></a>
+										<a href="#"><h4>Ayurveda in Ananda Spa - North India </h4></a>
 										<p>Delhi – Rishikesh – Delhi   </p>
 										<p>06 Nights / 07 Days</p>
 										
@@ -65,7 +65,7 @@
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('ayurveda-in-ananada-spa'); return false;"class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -79,14 +79,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/ayurveda-in-south-india.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/10-days-ayurveda-tour-package-in-south-india.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/ayurveda-in-south-india.html"><h4>Ayurveda in South India</h4></a>
+										<a href="#"><h4>Ayurveda in South India</h4></a>
 										<p>Delhi – Cochin – Marari – Kumarakom – Cochin  </p>
 										<p>10 Nights / 11 Days</p>
 										
@@ -106,7 +106,7 @@
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('ayurveda-in-south-india'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -161,14 +161,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/ayurveda-yoga-tour-in-kerala.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/7-days-ayurveda-tour-package.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/ayurveda-yoga-tour-in-kerala.html"><h4>Ayurveda & Yoga Tour in kerala</h4></a>
+										<a href="#"><h4>Ayurveda & Yoga Tour in kerala</h4></a>
 										<p>Thiruvananthapuram – Kovalam – Thiruvananthapuram</p>
 										<p>06 Nights / 07 Days</p>
 										
@@ -205,14 +205,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/yoga-tour-in-rishikesh.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/7-days-yoga-tour-in-rishikesh.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/yoga-tour-in-rishikesh.html"><h4>Yoga Tour in Rishikesh</h4></a>
+										<a href="#"><h4>Yoga Tour in Rishikesh</h4></a>
 										<p>Delhi – Rishikesh – Delhi</p>
 										<p>09 Nights / 10 Days</p>
 										
@@ -232,7 +232,7 @@
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Yoga Tour in Rishikesh'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -251,14 +251,14 @@
 									<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/yoga-ayurveda-tour-in-kerala.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/yoga-ayurveda -tour-in-kerala.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/yoga-ayurveda-tour-in-kerala.html"><h4>Yoga & Ayurveda Tour in Kerala</h4></a>
+										<a href="#"><h4>Yoga & Ayurveda Tour in Kerala</h4></a>
 										<p>Thiruvananthapuram – Thottapally/Alleppey – Kumarakom – Kovalam – Thiruvananthapuram</p>
 										<p>11 Nights / 12 Days</p>
 										
@@ -278,7 +278,7 @@
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('yoga-ayurveda-tour-in-kerala'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -297,9 +297,7 @@
 @include('themes.comman.index')
 	
 @include('layouts.footer')
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

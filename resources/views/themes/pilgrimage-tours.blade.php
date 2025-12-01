@@ -64,14 +64,14 @@
 <div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/buddha-pilgrimage-tour.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/buddha-pilgrimage-tour.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/buddha-pilgrimage-tour.html"><h4>Buddha Pilgrimage Tour </h4></a>
+										<a href="#"><h4>Buddha Pilgrimage Tour </h4></a>
 										<p>Varanasi - Sarnath - Varanasi- Bodhgaya -Rajgir -Nalanda - Patna - Vaishali- Kushinagar - Lumbini - Kapilavastu - Sravasti - Lucknow</p>
 										<p>09 Nights / 10 Days</p>
 										
@@ -85,14 +85,14 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-									<a href="../trips-to-india/buddha-pilgrimage-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+									<!-- <a href="../trips-to-india/buddha-pilgrimage-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 									</span>
 									</div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddha Pilgrimage Tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -106,14 +106,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/footsteps-of-buddha.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/footsteps-of-buddha.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/footsteps-of-buddha.html"><h4>Footsteps of Buddha</h4></a>
+										<a href="#"><h4>Footsteps of Buddha</h4></a>
 										<p>Bodhgaya - Rajgir & Nalanda - Bodhgaya - Varanasi - Kushinagar - Lumbini – Sravasti - Lucknow - Sankassia - Agra - Delhi</p>
 										<p>10 Nights / 11 Days</p>
 										
@@ -127,13 +127,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/footsteps-of-buddha.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/footsteps-of-buddha.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddha Pilgrimage Tour'); return false;"  class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -191,14 +191,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/buddhist-pilgrimage-tour.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/buddhist-pilgrimage-tour.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/buddhist-pilgrimage-tour.html"><h4>Buddhist Pilgrimage Tour</h4></a>
+										<a href="#"><h4>Buddhist Pilgrimage Tour</h4></a>
 										<p>Bodhgaya - Rajgir - Nalanda - Patna - Vaishali - Kushinagar - Lumbini - Kapilavastu – Sravasti - Varanasi - Bodhgaya</p>
 										<p>07 Nights / 08 Days</p>
 										
@@ -212,13 +212,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/buddhist-pilgrimage-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/buddhist-pilgrimage-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddha Pilgrimage Tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -232,14 +232,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/buddhist-tour-with-ajanta-ellora-and-sanchi.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/buddhist-pilgrimage-tour-with-ajanta-ellora-and-sanchi.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/buddhist-tour-with-ajanta-ellora-and-sanchi.html"><h4>Buddhist Pilgrimage Tour with Ajanta, Ellora and Sanchi</h4></a>
+										<a href="#"><h4>Buddhist Pilgrimage Tour with Ajanta, Ellora and Sanchi</h4></a>
 										<p>Mumbai-Aurangabad-Ellora-Ajanta-Bhusaval-Bhopal-Sanch-Bhopal-Agra-Delhi-Patna-Rajgir-Bodhgaya-Varanasi-Kushinagar-Lumbini-Sravasti-Lucknow-Delhi</p>
 										<p>09 Nights / 10 Days</p>
 										
@@ -253,13 +253,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/buddhist-tour-with-ajanta-ellora-and-sanchi.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/buddhist-tour-with-ajanta-ellora-and-sanchi.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddha Pilgrimage Tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -277,14 +277,14 @@
 								<div class="col-md-12 col-sm-6 col-xs-12">
 								<div class="hot-page2-alp-r-list">
 									<div class="col-md-4 hot-page2-alp-r-list-re-sp">
-										<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html">
+										<a href="#">
 											
 											<div class="hot-page2-hli-1"> <img src="../images/tourintro/buddhist-tour-with-golden-triangle.jpg" alt=""> </div>
 										</a>
 									</div>
 									<div class="col-md-4">
 										<div class="trav-list-bod">
-										<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html"><h4>Buddhist Tour With Golden Triangle</h4></a>
+										<a href="#"><h4>Buddhist Tour With Golden Triangle</h4></a>
 										<p>Delhi - Jaipur - Agra - Patna - Nalanda - Rajgir- Bodhgaya - Varanasi - Kushinagar - Gorakhpur - Lumbini - Balrampur - Lucknow - Delhi</p>
 										<p>13 Nights / 14 Days</p>
 										
@@ -298,13 +298,13 @@
 									<div class="col-md-6 col-sm-6 col-xs-6">
 									<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 										
-												<a href="../trips-to-india/buddhist-tour-with-golden-triangle.html" class="hot-page2-alp-quot-btn">View Details</a>
+												<!-- <a href="../trips-to-india/buddhist-tour-with-golden-triangle.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 											</span></div>
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-6">
 										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 											  <span class="hot-list-p3-4">
-												<a href="#" onclick="doEnquiry('Buddhist Tour With Golden Triangle'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+												<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 											</span></div></div>
 									</div>
 									</div>
@@ -316,7 +316,7 @@
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -329,7 +329,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html">
+<a href="#">
 
 <!--package heading -->
 <h4 class="package-heading common-content">Chennai Mahabalipuram Tour</h4></a>
@@ -355,7 +355,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/chennai-mahabalipuram-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/chennai-mahabalipuram-tour.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -365,7 +365,7 @@
 
 <!--link of inquire now-->
 
-<a href="#" onclick="doEnquiry('chennai-mahabalipuram-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -389,9 +389,7 @@
 	
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

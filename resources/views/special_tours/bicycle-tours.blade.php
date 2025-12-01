@@ -79,7 +79,7 @@
                                             <div class="hot-page2-alp-r-list">
                                                 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
                                                     <!--link of image-->
-                                                    <a href="../india-special-tour/bicycle-tour.html">
+                                                    <a href="{{ asset('/bicycle-tour-details') }}">
 
                                                         <div class="hot-page2-hli-1">
 
@@ -92,7 +92,7 @@
                                                     <div class="trav-list-bod">
 
                                                         <!--package name link-->
-                                                        <a href="../india-special-tour/bicycle-tour.html">
+                                                        <a href="{{ asset('/bicycle-tour-details') }}">
 
                                                             <!--package name-->
                                                             <h4>Bicycle Tour</h4>
@@ -118,7 +118,7 @@
                                                             <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
 
                                                                 <!-- detial page link-->
-                                                                <a href="../india-special-tour/bicycle-tour.html" class="hot-page2-alp-quot-btn">View Details</a>
+                                                                <a href="{{ asset('/bicycle-tour-details') }}" class="hot-page2-alp-quot-btn">View Details</a>
 
                                                                 </span>
                                                             </div>
@@ -128,7 +128,7 @@
                                                                 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('bicycle-tour'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('/enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div>
                                                         </div>
                                                     </div>

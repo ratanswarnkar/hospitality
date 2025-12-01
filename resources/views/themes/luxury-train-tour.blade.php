@@ -91,7 +91,7 @@
 
 
 <!--link of image-->
-<a href="../trips-to-india/palace-on-wheels.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -104,7 +104,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/palace-on-wheels.html">
+<a href="#">
 
 <!--package name-->
 <h4>Palace on Wheels</h4></a>
@@ -129,7 +129,7 @@
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/palace-on-wheels.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/palace-on-wheels.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -138,7 +138,7 @@
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('palace-on-wheels'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 
 
 </span></div></div>
@@ -157,7 +157,7 @@
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/maharajas-express-the-real-view-of-indian-panorama.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -170,7 +170,7 @@
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/maharajas-express-the-real-view-of-indian-panorama.html">
+<a href="#">
 
 <!--package name-->
 <h4>
@@ -196,7 +196,7 @@ Maharajas' Express - The Real View of Indian Panorama</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/maharajas-express-the-real-view-of-indian-panorama.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/maharajas-express-the-real-view-of-indian-panorama.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -205,7 +205,7 @@ Maharajas' Express - The Real View of Indian Panorama</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('maharajas-express-the-real-view-of-indian-panorama'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -224,7 +224,7 @@ Maharajas' Express - The Real View of Indian Panorama</h4></a>
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/maharajas-express-heritage-of-india.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -237,7 +237,7 @@ Maharajas' Express - The Real View of Indian Panorama</h4></a>
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/maharajas-express-heritage-of-india.html">
+<a href="#">
 
 <!--package name-->
 <h4>
@@ -263,7 +263,7 @@ Maharajas' Express - Heritage of India</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/maharajas-express-heritage-of-india.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/maharajas-express-heritage-of-india.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -272,7 +272,7 @@ Maharajas' Express - Heritage of India</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('maharajas-express-heritage-of-india'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -291,7 +291,7 @@ Maharajas' Express - Heritage of India</h4></a>
 <div class="hot-page2-alp-r-list">
 <div class="col-md-4 hot-page2-alp-r-list-re-sp">
 <!--link of image-->
-<a href="../trips-to-india/maharajas-express-gems-of-india.html">
+<a href="#">
 
 <div class="hot-page2-hli-1">
 
@@ -304,7 +304,7 @@ Maharajas' Express - Heritage of India</h4></a>
 <div class="trav-list-bod">
 
 <!--package name link-->
-<a href="../trips-to-india/maharajas-express-gems-of-india.html">
+<a href="#">
 
 <!--package name-->
 <h4>
@@ -330,7 +330,7 @@ Maharajas' Express - Gems of India</h4></a>
 <div class="hot-page2-alp-ri-p3 tour-alp-ri-p3" >
 
 <!-- detial page link-->
-<a href="../trips-to-india/maharajas-express-gems-of-india.html" class="hot-page2-alp-quot-btn">View Details</a>
+<!-- <a href="../trips-to-india/maharajas-express-gems-of-india.html" class="hot-page2-alp-quot-btn">View Details</a> -->
 
 </span></div>
 </div>
@@ -339,7 +339,7 @@ Maharajas' Express - Gems of India</h4></a>
 <span class="hot-list-p3-4">
 
 <!--enquiry link-->
-<a href="#" onclick="doEnquiry('maharajas-express-gems-of-india'); return false;" class="hot-page2-alp-quot-btn">Enquiry Now</a>
+<a href="{{ asset('enquiry') }}" class="hot-page2-alp-quot-btn">Enquiry Now</a>
 </span></div></div>
 </div>
 </div>
@@ -358,9 +358,7 @@ Maharajas' Express - Gems of India</h4></a>
 	
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

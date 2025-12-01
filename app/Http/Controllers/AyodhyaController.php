@@ -151,6 +151,25 @@ public function haridwarRishikesh(){
     return view('themes.comman.haridwar-rishikesh-with-golden-triangle-tour');
 }
 
+public function bicycleDetails(){
+    return view('special_tours.bicycle-tour-details');
+}
+public function wineDetails(){
+    return view('special_tours.wine-tour-packages-details');
+}
+
+public function hauntedDetails(){
+    return view('special_tours.haunted-tours-india-packages-details');
+}
+
+public function dharaviDetails(){
+    return view('special_tours.dharavi-slum-tour-details');
+}
+
+public function bollywoodDetails(){
+    return view('special_tours.bollywood-tour-details');
+}
+
 
 
 

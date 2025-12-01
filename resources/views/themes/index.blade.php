@@ -27,7 +27,7 @@
 
 <div class="row">
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="family-vacation-tours.html">
+<a href="{{ asset('/family') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/south-india.jpg" alt="delhi">
@@ -39,7 +39,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="heritage-tours.html">
+<a href="{{ asset('/cultures') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/rajasthan.jpg" alt="delhi">
@@ -51,7 +51,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="wildlife-tours.html">
+<a href="{{ asset('/wildlife') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/wildlife.jpg" alt="delhi">
@@ -63,7 +63,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="pilgrimage-tours.html">
+<a href="{{ asset('/pighal') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/pilgrimage.jpg" alt="delhi">
@@ -79,7 +79,7 @@
 
 <div class="row">
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="yoga-ayurveda-tour.html">
+<a href="{{ asset('/ayurveda') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/ayurveda.jpg" alt="delhi">
@@ -91,7 +91,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="adventure-tours.html">
+<a href="{{ asset('/adventure') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/adventure.jpg" alt="delhi">
@@ -103,7 +103,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="honeymoon-tours.html">
+<a href="{{ asset('/honeymoon') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/honeymoon.jpg" alt="delhi">
@@ -118,7 +118,7 @@
 
 
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="luxury-train-tour.html">
+<a href="{{ asset('/luxury') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/luxury-train.jpg" alt="delhi">
@@ -132,7 +132,7 @@
 </div>
 <div class="row">
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="kerala-backwaters-tour.html">
+<a href="{{ asset('/kerala') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/kerala-backwaters.jpg" alt="delhi">
@@ -144,7 +144,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="beach-vacations-tours.html">
+<a href="{{ asset('/beachs') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/beach-vacation-tours.jpg" alt="delhi">
@@ -159,7 +159,7 @@
 
 
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="buddhist-tours.html">
+<a href="{{ asset('/buddhista') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/budhist-tour.jpg" alt="delhi">
@@ -172,7 +172,7 @@
 </div>
 
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="golden-triangle-tour.html">
+<a href="{{ asset('/golden') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/golden-triangle-tours.jpg" alt="delhi">
@@ -186,7 +186,7 @@
 </div>
 <div class="row">
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="hill-station-tours.html">
+<a href="{{ asset('/hill') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/hill-station-tour.jpg" alt="delhi">
@@ -201,7 +201,7 @@
 
 
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="../trips-to-india/himachal-tour.html">
+<a href="{{ asset('/himachal') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/listing/manali.jpg" alt="delhi">
@@ -213,7 +213,7 @@
 </a>
 </div>
 <div class="col-md-3 col-xs-6 col-sm-6">
-<a href="north-east-india-tours.html">
+<a href="{{ asset('/north') }}">
 <div class="tour-mig-like-com">
 <div class="tour-mig-lc-img">
 <img src="../images1/north-east-india-tours.jpg" alt="delhi">
@@ -238,9 +238,7 @@
 @include('themes.comman.index')
 @include('layouts.footer')
 
-<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
-	<a href="../enquiry.php" class="" ><img src="../images1/contact-butt.png"></a>
-</div>
+
 		<script type="text/javascript">
   $(document).ready(function() {
   $("#toggle").click(function() {

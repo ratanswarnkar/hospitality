@@ -33,6 +33,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/mob.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
 
        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
@@ -237,7 +238,7 @@
 											<a href="https://www.linkedin.com/company/b2b-hospitality" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 										</li>
 										<li>
-											<a href="https://www.instagram.com/b2b_hospitality/" target="_blank"><i class="fa fa-instagram"></i></a>
+											<a href="" target="_blank"><i class="fa fa-instagram"></i></a>
 										</li>
 									</ul>
 								
@@ -251,7 +252,7 @@
 									<ul>
 										<li>							
 											<a href="tel:011-4609 5752  ">
-												<i class="fa fa-phone"></i> 9810890465 
+												<i class="fa fa-phone"></i> 9810890565 
 												<i class="fa fa-mobile"></i> +91 99718 55984
 											</a>
 										</li>
@@ -481,7 +482,7 @@
 		</section>
 		<!--END HEADER SECTION-->
 
-		<a href="https://wa.me/919810890465" class="whatsapp_float" target="_blank">
+		<a href="https://wa.me/919810890565" class="whatsapp_float" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" class="whatsapp_icon">
 </a>
 
@@ -507,3 +508,6 @@
     transition: 0.3s ease-in-out;
 }
 </style>
+<div style="position: fixed; right: 0px; top:200px; z-index: 997;">
+	<a href="{{ asset('enquiry') }}" class="" ><img src="images/contact-butt.png"></a>
+</div>

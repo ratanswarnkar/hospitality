@@ -72,21 +72,21 @@
 								
 									<ul>
 										<li>
-											<a href="https://www.facebook.com/b2bhospitalityind" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 										</li>
 
 										<li>
-											<a href="https://twitter.com/B2Btouragency" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 										</li>
 										<li>
-											<a href="https://www.youtube.com/channel/UCWw-bruyAO1KKDw0NGoNTiQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/company/b2b-hospitality" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 										</li>
 										
 										<li>
-											<a href="https://www.instagram.com/b2b_hospitality/" target="_blank"><i class="fa fa-instagram"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
 										</li>
 									</ul>
 								
@@ -102,11 +102,11 @@
 
 							<div class="col-md-6">
 								<img src="images/member.png" class="img-responsive"
-								alt="b2b accept payment">
+								alt=" NEXT-WISE Hospitality accept payment">
 							</div>
 							<div class="col-md-6 payment-card">
 								<img src="images/cards.png" class="img-responsive"
-								alt="b2b accept payment">
+								alt=" NEXT-WISE Hospitality accept payment">
 							</div>
 
 						</div>

@@ -12,7 +12,7 @@
                             <h3>Hot Deal Packages</h3>
 
                             <!--overview-->
-                            <p class="overview">Travelling becomes fun when it comes with good deals and promotions. Here at B2B hospitality Pvt Ltd we offer you best packages that not only save your money but give you the best experience ever. Choose from these packages
+                            <p class="overview">Travelling becomes fun when it comes with good deals and promotions. Here at NEXT-WISE hospitality Pvt Ltd we offer you best packages that not only save your money but give you the best experience ever. Choose from these packages
                                 and find out how you can get the most excellent of Incredible India.
                             </p>
 

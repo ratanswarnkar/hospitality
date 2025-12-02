@@ -27,7 +27,7 @@
 
 <p>Shimla is the capital of Himachal Pradesh and therefore it is the place which has everything for everyone. The mall road is the best place for shopaholics, Lakkar bazaar near the Mall is a famous stop for wooden handicrafts. The Jakhoo Temple is the oldest temple situated at the highest point which offers a beautiful view of the town. The Ridge and Christ church are other popular attractions of the city.</p>
 
-<p><a href="https://www.b2bhospitalityindia.com/trips-to-india/manali-tour.html"><strong>Manali tour package</strong></a> proves to be a complete holiday package in terms of fun, adventure, beauty and romance. Rohtang pass is the main attraction which offers snow-covered hills, plenty of snow adventure activities and beautiful views. Van Vihar, Hadimba temple, Manu temple and mall road are other main attraction of the city.</p>
+<p><a href="https://nextwisehospitality.co.in/"><strong>Manali tour package</strong></a> proves to be a complete holiday package in terms of fun, adventure, beauty and romance. Rohtang pass is the main attraction which offers snow-covered hills, plenty of snow adventure activities and beautiful views. Van Vihar, Hadimba temple, Manu temple and mall road are other main attraction of the city.</p>
 
 <p>Khajjar is famous as mini Switzerland, which is filled with pine and Cedar trees. There are fields surrounded by mountains and greenery all around. It is an ideal picnic spot.</p>
 

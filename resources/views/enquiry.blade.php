@@ -1,4 +1,29 @@
 @include('layouts.header')
+<style>
+    .input-date {
+  position: relative;
+}
+
+.input-date label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #6c757d;
+  pointer-events: none;
+  transition: 0.2s;
+  background: #fff;
+  padding: 0 6px;
+}
+  
+.input-date input:focus + label,
+.input-date input:not(:placeholder-shown) + label {
+  top: -8px;
+  font-size: 12px;
+  color: #198754;
+}
+
+</style>
 
 
 <section id="quote-form" class="container my-5" style="padding-top:87px; padding-bottom:87px;">
@@ -36,13 +61,17 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-md-6">
-                <input type="date" name="arrival" class="form-control" placeholder="Tentative Arrival*" required>
-            </div>
-            <div class="col-md-6">
-                <input type="date" name="departure" class="form-control" placeholder="Departure">
-            </div>
-        </div>
+    <div class="col-md-6 input-date">
+        <input type="date" name="arrival" class="form-control" required placeholder=" ">
+        <label>Tentative Arrival*</label>
+    </div>
+
+    <div class="col-md-6 input-date">
+        <input type="date" name="departure" class="form-control" placeholder=" ">
+        <label>Departure</label>
+    </div>
+</div>
+
 
         <div class="row mb-3">
             <div class="col-md-6">

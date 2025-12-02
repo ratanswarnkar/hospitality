@@ -38,6 +38,7 @@
        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
 
@@ -511,3 +512,214 @@
 <div style="position: fixed; right: 0px; top:200px; z-index: 997;">
 	<a href="{{ asset('enquiry') }}" class="" ><img src="images/contact-butt.png"></a>
 </div>
+
+
+<style>
+#chatbot-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  z-index: 9999999; /* Increase this */
+}
+
+#chatWindow {
+  position: fixed;
+  bottom: 100px;
+  left: 20px;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+  z-index: 9999999;
+}
+
+
+
+#chatWindow textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#chatWindow button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#chat-success {
+  display: none;
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+#chat-tooltip {
+  position: fixed;
+  bottom: 100px;
+  left: 90px; /* adjust if needed */
+  background: #ffffff;
+  color: #000;
+  padding: 10px 14px;
+  border-radius: 15px;
+  font-size: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  z-index: 9999999;
+  display: none;
+  animation: fadeInUp 0.4s ease;
+}
+
+/* Small tail triangle */
+#chat-tooltip::after {
+  content: "";
+  position: absolute;
+  left: -8px;
+  bottom: 10px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 10px solid white;
+}
+
+/* Smooth floating animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+</style>
+
+<div id="chatbot-btn" style="z-index:9999999;">🤖</div>
+<div id="chat-tooltip">👋 Hi! We are here to help</div>
+
+
+
+<div id="chatWindow">
+  <h3 style="margin-top:0;">Travel Assistant</h3>
+  <p>Tell us your details — we will contact you shortly.</p>
+
+  <input type="text" id="userName" placeholder="Full Name" 
+  style="width:100%; margin-top:10px; padding:7px;border:1px solid #ccc;border-radius:5px;">
+
+  <input type="email" id="userEmail" placeholder="Email Address" 
+  style="width:100%; margin-top:10px; padding:7px;border:1px solid #ccc;border-radius:5px;">
+
+  <input type="text" id="userPhone" placeholder="Phone Number" 
+  style="width:100%; margin-top:10px; padding:7px;border:1px solid #ccc;border-radius:5px;">
+
+  <input type="text" id="userPlace" placeholder="City / Location" 
+  style="width:100%; margin-top:10px; padding:7px;border:1px solid #ccc;border-radius:5px;">
+
+  <textarea id="chatMessage" placeholder="How can we help you?" 
+  style="width:100%; height:100px; margin-top:10px; padding:7px;border:1px solid #ccc;border-radius:5px;"></textarea>
+
+  <button id="sendChat">📩 Send</button>
+</div>
+
+
+<script>
+document.getElementById("sendChat").addEventListener("click", async () => {
+
+  const name = document.getElementById("userName").value;
+  const email = document.getElementById("userEmail").value;
+  const phone = document.getElementById("userPhone").value;
+  const place = document.getElementById("userPlace").value;
+  const message = document.getElementById("chatMessage").value;
+
+  if (!name || !email || !phone || !place || !message) {
+    Swal.fire({
+      icon: "warning",
+      title: "All Fields Required!",
+      text: "Please fill out all details before submitting."
+    });
+    return;
+  }
+
+  const formData = {
+    name: name,
+    email: email,
+    phone: phone,
+    place: place,
+    message: message
+  };
+
+  const response = await fetch("https://formspree.io/f/xldqbkjk", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(formData)
+  });
+
+  if (response.ok) {
+    Swal.fire({
+      title: "Thank You!",
+      text: "Your details have been received. We will contact you soon.",
+      icon: "success",
+      confirmButtonColor: "#28a745"
+    });
+
+    document.getElementById("userName").value = "";
+    document.getElementById("userEmail").value = "";
+    document.getElementById("userPhone").value = "";
+    document.getElementById("userPlace").value = "";
+    document.getElementById("chatMessage").value = "";
+
+    document.getElementById("chatWindow").style.display = "none";
+  } else {
+    Swal.fire({
+      icon: "error",
+      title: "Oops!",
+      text: "Something went wrong. Try again later."
+    });
+  }
+});
+</script>
+
+<script>
+const chatbotBtn = document.getElementById("chatbot-btn");
+const chatWindow = document.getElementById("chatWindow");
+
+chatbotBtn.addEventListener("click", () => {
+  if (chatWindow.style.display === "flex") {
+    chatWindow.style.display = "none";
+  } else {
+    chatWindow.style.display = "flex";
+  }
+});
+</script>
+<script>
+const tooltip = document.getElementById("chat-tooltip");
+
+chatbotBtn.addEventListener("click", () => {
+  
+  // show tooltip first time only
+  tooltip.style.display = "block";
+
+  // hide after 3 seconds automatically
+  setTimeout(() => {
+    tooltip.style.display = "none";
+  }, 3000);
+
+});
+</script>
+

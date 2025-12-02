@@ -60,3 +60,12 @@
 <br><br>
 
 @include('layouts.footer')
+
+  <!--========= Scripts ===========-->
+    <script src="../js/jquery-latest.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/custom.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+</body>
+
+</html>

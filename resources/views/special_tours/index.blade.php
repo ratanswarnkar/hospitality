@@ -9,7 +9,7 @@
                         <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 
                             <h3>India Special Tour</h3>
-                            <p class="overview"> The power to travel the world just gets better with Special tours! A journey of meeting like-minded people, making new friends and creating new stories. Every Speciality tour with B2B hospitality welcomes travellers to celebrate
+                            <p class="overview"> The power to travel the world just gets better with Special tours! A journey of meeting like-minded people, making new friends and creating new stories. Every Speciality tour with  NEXT-WISE Hospitality welcomes travellers to celebrate
                                 their passion and enjoy something they truly like! We have Wine tours, bicycle tours, haunted tours and Bollywood tours which are designed to give you one of a kind experience. Enjoy the benefits of special tours which
                                 invite people from around the world to explore something new. </p>
                             <!-- <span id="text"> -->

@@ -12,9 +12,9 @@
 <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
 
 <h3>India Tour Packages</h3>
-<p>Discover best of India tour packages with <a href="https://b2bhospitalityindia.com"><strong>B2B Hospitality</strong></a> team as per your interest and preference. We are here to arrange perfect trip for you, taking proper care of your comfort and likings. India has much to offer in terms of adventure, nature beauty, fun, nightlife, culture, water sports, hills, beaches, lively villages, green fields, sand dunes and fun loving open-hearted people.</p>
+<p>Discover best of India tour packages with <a href="https://nextwisehospitality.co.in/"><strong>NEXT-WISE Hospitality</strong></a> team as per your interest and preference. We are here to arrange perfect trip for you, taking proper care of your comfort and likings. India has much to offer in terms of adventure, nature beauty, fun, nightlife, culture, water sports, hills, beaches, lively villages, green fields, sand dunes and fun loving open-hearted people.</p>
 <span id="text">
-<p>India have achieved good ranking in travel and tourism and offers variety of tours differentiated on the basis of categories like Heritage, Ayurveda, Wildlife, Culture, Adventure, Religion, Pilgrimage, Village, Luxury trains, Family, Honeymoon and much more. Whatever interest a traveller owns, the country does not dishearten him. Whether it is a <a href="https://b2bhospitalityindia.com/tour-packages-india/wildlife-tours.html"><strong>wildlife trip</strong></a>, a romantic holiday or a self-realizing spiritual tour, India opens its doors to everyone.</p>
+<p>India have achieved good ranking in travel and tourism and offers variety of tours differentiated on the basis of categories like Heritage, Ayurveda, Wildlife, Culture, Adventure, Religion, Pilgrimage, Village, Luxury trains, Family, Honeymoon and much more. Whatever interest a traveller owns, the country does not dishearten him. Whether it is a <a href="https://nextwisehospitality.co.in/"><strong>wildlife trip</strong></a>, a romantic holiday or a self-realizing spiritual tour, India opens its doors to everyone.</p>
 </span>
 <div class="btn-container">
 <button id="toggle">+ Read More</button>

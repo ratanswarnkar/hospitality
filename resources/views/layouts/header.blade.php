@@ -4,17 +4,17 @@
 	<head>
 		<title>India Tours | India Travel Agency | Travel in India</title>
 		<!--== META TAGS ==-->
-		<meta name="description" content="B2B Hospitality is the best travel guide in India. we customize your holiday packages, so you Can make the most on your holiday tour packages or with local shopping"/>
+		<meta name="description" content=" NEXT-WISE Hospitality is the best travel guide in India. we customize your holiday packages, so you Can make the most on your holiday tour packages or with local shopping"/>
 		<meta name="keywords" content="tour operator in india, travel agents in india, tour packages india, best tour operator in india, domestic tour packages, luxury india tours, vacation packages tours, india wildlife tours, india travel guide, tour to india, weekend packages, honeymoon packages, sightseeing tours, India Tours, India travel agency in India"/>
-		<link rel="canonical" href="https://www.b2bhospitalityindia.com/index.html"
+		<link rel="canonical" href="https://nextwisehospitality.co.in/"
 		/>
 		<meta name="robots" content="index, follow">
 		<meta name="google-site-verification" content="v8OEcYcx5rAnQdCFzo8yWx85Bw1oh3YvJaqZJCr3vSo" />
 		<meta property="og:type" content="website"
 		/>
 		<meta property="og:title" content="India Tours | India Travel Agency | Travel In India" />
-		<meta property="og:url" content="https://www.b2bhospitalityindia.com" />
-		<meta property="og:description" content="B2B Hospitality is the best travel guide in India. we customize your holiday packages, so you can make the most on your holiday tour packages or with local shopping"
+		<meta property="og:url" content="https://nextwisehospitality.co.in/" />
+		<meta property="og:description" content=" NEXT-WISE Hospitality is the best travel guide in India. we customize your holiday packages, so you can make the most on your holiday tour packages or with local shopping"
 		/>
 		<meta property="og:image" content="../images/logo.png"
 		/>
@@ -77,7 +77,7 @@
 				<div class="ed-mob-menu-con">
 					<div class="ed-mm-left">
 						<div class="wed-logo">
-							<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india" class="img-responsive"></a>
+							<a href="{{ asset('/')}}"><img src="images/logo.png" alt=" NEXT-WISE Hospitality india" class="img-responsive"></a>
 						</div>
 					</div>
 					<div class="ed-mm-right ">
@@ -209,14 +209,14 @@
 					<div class="row">
 						<div class="col-xl-4 col col-lg-4 col-md-3 col-xs-12 col-sm-12">
 							<div class="wed-logo">
-								<a href="{{ asset('/')}}"><img src="images/logo.png" alt="b2b hospitality india"
+								<a href="{{ asset('/')}}"><img src="images/logo.png" alt=" NEXT-WISE Hospitality india"
 									class="img-responsive" />
 								</a>
 							</div>
 						</div>
 						<div class="col-xl-2 col col-lg-2 col-md-3 col-xs-12 col-sm-12">
 							<a href="#"
-							target="_blank"><img src="images/trip.png" alt="b2b hospitality trip-advisor"
+							target="_blank"><img src="images/trip.png" alt=" NEXT-WISE Hospitality trip-advisor"
 								class="trip-advisor img-responsive"></a>
 						</div>
 						<div class="social-footer col-md-3 col-lg-2 foot-com">
@@ -225,17 +225,17 @@
 								
 									<ul class="social_icon">
 										<li>
-											<a href="https://www.facebook.com/b2bhospitalityind" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 										</li>
 
 										<li>
-											<a href="https://twitter.com/B2Btouragency" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 										</li>
 										<li>
-											<a href="https://www.youtube.com/channel/UCWw-bruyAO1KKDw0NGoNTiQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 										</li>
 										<li>
-											<a href="https://www.linkedin.com/company/b2b-hospitality" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+											<a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 										</li>
 										<li>
 											<a href="" target="_blank"><i class="fa fa-instagram"></i></a>

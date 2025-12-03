@@ -610,8 +610,8 @@
 
 </style>
 
-<div id="chatbot-btn" style="z-index:9999999;">🤖</div>
-<div id="chat-tooltip">👋 Hi! We are here to help</div>
+<div id="chatbot-btn" style="z-index:9999999;">✈️</div>
+<!-- <div id="chat-tooltip">👋 Hi! We are here to help</div> -->
 
 
 

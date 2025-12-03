@@ -93,7 +93,7 @@
                                                 title="Dinner/Lunch"></i> </p>
 
                                         <!--link of inquire now-->
-                                        <a href="{{ asset('enquiry') }}" class="btn btn-lg btn-submit btn-block MT1em" data-toggle="modal" data-target=""><i class="fa fa-envelope-open-o" aria-hidden="true">  </i>  Inquire Now</a>
+                                        <a href="{{ asset('/enquiry') }}" class="btn btn-lg btn-submit btn-block MT1em" data-toggle="modal" data-target=""><i class="fa fa-envelope-open-o" aria-hidden="true">  </i>  Inquire Now</a>
 
 
                                     </div>

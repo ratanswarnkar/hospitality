@@ -96,7 +96,7 @@
 
                                         <!--link of inquire now-->
                                         <div class="col-md-12 col-xs-12 col-sm-12">
-                                            <a href="{{ asset('enquiry') }}" class="btn btn-lg btn-submit btn-block MT1em" data-toggle="modal" data-target=""><i class="fa fa-envelope-open-o" aria-hidden="true">  </i>  Inquire Now</a>
+                                            <a href="{{ asset('/enquiry') }}" class="btn btn-lg btn-submit btn-block MT1em" data-toggle="modal" data-target=""><i class="fa fa-envelope-open-o" aria-hidden="true">  </i>  Inquire Now</a>
                                         </div>
 
                                     </div>

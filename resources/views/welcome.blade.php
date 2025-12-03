@@ -112,7 +112,7 @@
                               <div class="carousel-inner carousel-inner1" role="listbox">
 							  
                                  <div class="item active">
-                                 <img src="images/consul-bg-1.png" alt="balukphont" width="1369" height="450"> 
+                                 <img src="images/consul-bg-2.png" alt="balukphont" width="1369" height="450"> 
 								<!-- <img  src="images/Banner-2.jpg" alt="taj-mahal" width="1369" height="450"> -->
                                  </div>
                                  <div class="banner-caption glass-box">
@@ -122,7 +122,7 @@
 
 								 
                                 <div class="item">
-                                  <img src="images/consul-bg-2.png" alt="kamakhya-temple-guwahati" width="1369" height="450">  
+                                  <img src="images/consul-bg-1.png" alt="kamakhya-temple-guwahati" width="1369" height="450">  
 								 <!-- <img style="background-repeat:no-repeat; background-size:100% 100%; max-width:100%" src="images/banner-1.png" alt="balukphont" width="1369" height="450"> -->
                                  </div> 
 
